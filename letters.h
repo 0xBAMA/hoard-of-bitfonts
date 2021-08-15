@@ -7,7 +7,7 @@ using json = nlohmann::json;
 class letter {
 public:
 	std::vector<std::vector<int>> data;
-}
+};
 
 class letter_selector {
 public:
@@ -23,4 +23,4 @@ public:
 
 
 	}
-}
+};
