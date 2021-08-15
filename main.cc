@@ -57,14 +57,11 @@ void load_yaff(std::filesystem::path p) {
 	std::stringstream s(load_path(p));
 
 	p.replace_extension(""); // strip the extension off
-	j[get_label()]["label"] = std::string(p.c_str()+2); // get rid of './'
-	j[get_label()]["format"] = std::string("yaff"); // do I care about this?
 
 // load all the glyphs, with labels as possible
 	// glyph needs to know:
 		// label
-		// x dimension, y dimension
-		// the data, an int array of size x*y
+		// the data, an array of characters
 
 	// the YAFF format starts with a header - skip it, till the beginning of the first comment
 	std::string temp; // temporary storage
@@ -121,6 +118,8 @@ void load_yaff(std::filesystem::path p) {
 		if(s.rdbuf()->in_avail()==0) break;
 	}
 
+	j[get_label()]["label"] = std::string(p.c_str()+2); // get rid of './'
+	j[get_label()]["format"] = std::string("yaff"); // do I care about this?
 	j[get_label()]["num_glyphs"] = glyph_count;
 	global_glyphcount += glyph_count;
 	num_fonts++;
@@ -139,8 +138,6 @@ void load_draw(std::filesystem::path p) {
 	std::stringstream s(load_path(p));
 
 	p.replace_extension("");
-	j[get_label()]["label"] = std::string(p.c_str()+2);
-	j[get_label()]["format"] = std::string("draw");
 
 	// get rid of leading comments
 	std::string garbage;
@@ -169,11 +166,16 @@ void load_draw(std::filesystem::path p) {
 			if(temp.empty()) // was this a blank line or a comment?
 				break;
 
+			replace_all(temp, "-", ".");
+			replace_all(temp, "#", "@");
+
 			hold.push_back(temp); // keep lines
 			std::getline(s, temp, '\n');
 		}
 
 		// put the data in the list
+		j[get_label()]["label"] = std::string(p.c_str()+2);
+		j[get_label()]["format"] = std::string("draw");
 		j[get_label()][index] = label;
 		j[get_label()][data] = hold;
 		glyph_count++;
