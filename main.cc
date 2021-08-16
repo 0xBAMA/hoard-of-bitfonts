@@ -3,6 +3,8 @@
 #include <sstream>
 #include <filesystem>
 
+#include "letters.h"
+
 // Goal here is to construct a monolitic JSON file out of this data, which will
 // format the data like this:
 // 	Total # of fonts
@@ -196,26 +198,84 @@ void load_draw(std::filesystem::path p) {
 
 
 int main(int argc, char const *argv[]) {
-	std::filesystem::path working_dir{"."};
-	for(auto const& dir_entry: std::filesystem::recursive_directory_iterator{working_dir}) {
+	// std::filesystem::path working_dir{"."};
+	// for(auto const& dir_entry: std::filesystem::recursive_directory_iterator{working_dir}) {
+	//
+	// 	// load a YAFF font
+	// 	if(dir_entry.path().extension() == ".yaff")
+	// 		load_yaff(dir_entry);
+	//
+	// 	// load a DRAW font
+	// 	if(dir_entry.path().extension() == ".draw")
+	// 		load_draw(dir_entry);
+	// }
+	//
+	// // output the constructed JSON model
+	// j["count"] = num_fonts;
+	// std::cout << std::endl << j.dump(2) << std::endl << std::endl;
+	//
+	// std::ofstream o("monolithic_model.json");
+	// o << std::setw(4) << j << std::endl;
+	//
+	// std::cout << " > Total character count: " << global_glyphcount << " across " << num_fonts << " fonts." << std::endl;
+	//
+	// return 0;
 
-		// load a YAFF font
-		if(dir_entry.path().extension() == ".yaff")
-			load_yaff(dir_entry);
 
-		// load a DRAW font
-		if(dir_entry.path().extension() == ".draw")
-			load_draw(dir_entry);
+
+
+
+	// optimizing letter list, so it doesn't seg fault
+
+	letter_selector l;
+	std::vector<unsigned char> loaded_bytes;
+	std::vector<letter> unsorted_letters;
+
+
+	l.populate(loaded_bytes, 0, 0, nullptr); // no block, just letters
+
+int num = 0;
+	for(int i = 0; i < l.letters.size(); i++) {
+		if(!l.letters[i].check()) {
+			l.letters.erase(l.letters.begin()+i);
+			i--;
+			num++;
+		}
+		std::cout << float(i)/float(l.letters.size()) << "\r";
 	}
 
-	// output the constructed JSON model
-	j["count"] = num_fonts;
-	std::cout << std::endl << j.dump(2) << std::endl << std::endl;
+	std::cout << std::endl << num << " bad letters removed" << std::endl;
 
-	std::ofstream o("monolithic_model.json");
-	o << std::setw(4) << j << std::endl;
+	// remove duplicates
+	num = 0;
+	for(int i = 0; i < l.letters.size(); i++)
+	for(int j = i+1; j < l.letters.size(); j++)
+		if(l.letters[i]==l.letters[j]) {
+			l.letters.erase(l.letters.begin()+j);
+			j--;
+			num++;
+			std::cout << float(i)/float(l.letters.size()) << "\r";
+		}
 
-	std::cout << " > Total character count: " << global_glyphcount << " across " << num_fonts << " fonts." << std::endl;
+	std::cout << num << " duplicates found" << std::endl;
 
-	return 0;
+	std::cout << l.letters.size() << " letters remaining" << std::endl;
+
+	json j; int i = 0;
+	for(auto lett : l.letters) {
+		std::vector<std::string> rows;
+		rows.resize(lett.data.size());
+		for(int i = 0; i < lett.data.size(); i++)
+			for(int j = 0; j < lett.data[0].size(); j++)
+				rows[i].append(1, lett.data[i][j] ? '@' : '.'); // back to the expected format
+
+		j[std::to_string(i)] = rows;
+		i++;
+	}
+
+	// std::cout << std::endl << j.dump(2) << std::endl;
+
+	std::ofstream o("optimized.json");
+	o << j.dump(2) << std::endl;
+
 }
