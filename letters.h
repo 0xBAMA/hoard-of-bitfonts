@@ -38,9 +38,9 @@ public:
 
 
 	bool check() {
-		int firstrow = data.empty() ? 0 : data[0].size();
+		unsigned int firstrow = data.empty() ? 0 : data[0].size();
 		if(!firstrow) return false;
-		for(int i = 0; i < data.size(); i++)
+		for(unsigned int i = 0; i < data.size(); i++)
 			if(data[i].size() != firstrow)
 				return false;
 		return true;
@@ -49,8 +49,8 @@ public:
 	friend bool operator== (const letter& l1, const letter& l2){
 		if(l1.data.size()!=l2.data.size()) return false; // y dim doesn'nt match
 		if(l1.data[0].size()!=l1.data[0].size()) return false; // z dim doesn't match
-		for(int i = 0; i < l1.data.size(); i++)
-		for(int j = 0; j < l1.data[0].size(); j++)
+		for(unsigned int i = 0; i < l1.data.size(); i++)
+		for(unsigned int j = 0; j < l1.data[0].size(); j++)
 			if(l1.data[i][j]!=l2.data[i][j])
 				return false;
 		return true;
