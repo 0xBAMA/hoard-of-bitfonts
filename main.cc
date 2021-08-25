@@ -347,7 +347,14 @@ int main(int argc, char const *argv[]) {
     std::vector<unsigned char> image;
     image.resize(height_pixels * width_pixels * 4, 255);
 
+		std::random_device r;
+		std::seed_seq s{r(), r(), r(), r(), r(), r(), r(), r(), r()};
+    std::mt19937_64 gen = std::mt19937_64(s);
+
+		std::uniform_int_distribution<int> color(60, 189);
+
     for(auto& rect : rects) {
+      int col = color(gen);
       for(int x = 0; x < rect.w-1; x++) // compensate for padding
       for(int y = 0; y < rect.h-1; y++) {
         int base = ((x+rect.x+7) + width_pixels * (y+rect.y+7)) * 4;
@@ -355,6 +362,11 @@ int main(int argc, char const *argv[]) {
           image[base+0] = 0;
           image[base+1] = 0;
           image[base+2] = 0;
+          image[base+3] = 255;
+        }else{
+          image[base+0] = col;
+          image[base+1] = col;
+          image[base+2] = col;
           image[base+3] = 255;
         }
       }
