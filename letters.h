@@ -1,3 +1,6 @@
+#ifndef LETTER
+#define LETTER
+
 #include <vector>
 #include <random>
 #include <fstream>
@@ -183,3 +186,5 @@ public:
 		}
 	}
 };
+
+#endif
