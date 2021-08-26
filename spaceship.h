@@ -319,7 +319,7 @@ public:
     for(int y = 0; y < int(b.maxs.values[1]); y++) {
     for(int x = 0; x < int(b.maxs.values[0]); x++) {
       bool v = (values[x+int(y*b.maxs.values[0])+int(z*b.maxs.values[0]*b.maxs.values[1])] == 1);
-      std::cout << v ? 1 : 0;
+      std::cout << (v ? 1 : 0);
     } std::cout << std::endl << std::flush;
     } std::cout << std::endl;
     }
@@ -327,26 +327,25 @@ public:
 
   void getData(std::vector<unsigned char> &data, int dim) {
     if(data.size()==0) return;
+    squareModel();
 
     // put it in the center
     bbox b = getBBox();
-    ivec3 offset = ivec3((b.mins.values[0]+b.maxs.values[0])/2, (b.mins.values[1]+b.maxs.values[1])/2, (b.mins.values[2]+b.maxs.values[2])/2);
+    ivec3 offset = b.maxs/2;
 
-    for(auto& p : model) {
-      ivec3 t = p.first;
-      const ivec3 k = t;
-      t -= offset;
-      t += ivec3(dim/2);
-      if(t.values[0] < 0 || t.values[0] >= dim ||
-         t.values[1] < 0 || t.values[1] >= dim ||
-         t.values[2] < 0 || t.values[2] >= dim) {
-          model.erase(t);
-      }
+    std::unordered_map<ivec3, col> outputModel;
+    for(auto& [p, m] : model) {
+      ivec3 check = p-offset+ivec3(dim/2);
+      if(check.values[0] >= 0 && check.values[0] < dim &&
+         check.values[1] >= 0 && check.values[1] < dim &&
+         check.values[2] >= 0 && check.values[2] < dim)
+         outputModel[check] = m;
     }
 
-    for(auto& [p, m] : model) {
-      int index = 4 * (p.values[0] + p.values[1]*dim + p.values[2]*dim*dim);
-      if(index > data.size() || index < 0) continue;
+
+    for(auto& [p, m] : outputModel) {
+      unsigned int index = 4 * (p.values[0] + p.values[1]*dim + p.values[2]*dim*dim);
+      if(index > data.size()) continue;
       data[index+0] = m.rgb.values[0] * 255;
       data[index+1] = m.rgb.values[1] * 255;
       data[index+2] = m.rgb.values[2] * 255;
