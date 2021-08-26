@@ -97,13 +97,17 @@ public:
   //  division by a vector of the same type - elementwise divide
   const vector3<T> operator/(const vector3<T>& other) const { return vector3(this->values[0]/other.values[0], this->values[1]/other.values[1], this->values[2]/other.values[2]); }
   const vector3<T>& operator/=(const vector3<T>& other) { this->values[0]/=other.values[0], this->values[1]/=other.values[1], this->values[2]/=other.values[2]; return *this; }
+
+  // friend  bool operator==
 };
 
 // check for equality
 template <class T>
-bool operator==(vector3<T>& lhs, vector3<T>& rhs) {
+bool operator==(const vector3<T>& lhs, const vector3<T>& rhs) {
   return lhs.values[0]==rhs.values[0] && lhs.values[1]==rhs.values[1] && lhs.values[2]==rhs.values[2];
 }
+
+
 
 // addition/subtraction in the other order
 template <class T>

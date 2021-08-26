@@ -2,6 +2,31 @@
 #include "vector.h"
 #include <random>
 #include <algorithm>
+#include <unordered_map>
+
+struct bbox {
+  ivec3 mins;
+  ivec3 maxs;
+};
+
+struct col {
+  vec3 rgb;
+  float a;
+};
+
+
+// custom specialization of std::hash can be injected in namespace std
+namespace std
+{
+    template<> struct hash<ivec3> {
+        std::size_t operator()(ivec3 const& s) const noexcept {
+            std::size_t h1 = std::hash<int>{}(s.values[0]);
+            std::size_t h2 = std::hash<int>{}(s.values[1]);
+            std::size_t h3 = std::hash<int>{}(s.values[2]);
+            return h1 ^ (h2 << 4) ^ (h3 << 8);
+        }
+    };
+}
 
 class ssGenerator {
 public:
@@ -30,23 +55,6 @@ public:
   int maxzScale;
   int minzScale;
 
-
-  struct bbox {
-    ivec3 mins;
-    ivec3 maxs;
-  };
-
-  struct col {
-    vec3 rgb;
-    float a;
-  };
-
-  struct vox {
-    col color;
-    ivec3 pos;
-  };
-
-
   std::mt19937_64 rng;
   void genRandomEngine() {
     std::random_device r;
@@ -70,7 +78,7 @@ public:
       pvals.push_back(c);
     }
     // make sure one has a low alpha value, to allow for something like windows
-    pvals[0].a = 0.08;
+    pvals[0].a = 0.38;
   }
 
   // sample the palette function at a randomly generated location
@@ -90,29 +98,18 @@ public:
 
 
   // holds a list of occupied voxels and their content - this style of volume representation makes it easier to mirror, etc. than with a dense volume
-  std::vector<vox> model;
+  // std::vector<vox> model;
+  std::unordered_map<ivec3, col> model;
+
   bbox getBBox() {
     // iterate through the model and keep the min and max valuex of x,y,z
     bbox temp;
-    for(auto& m : model)
+    for(auto& [p, m] : model)
       for(unsigned int i = 0; i < 3; i++) {
-        temp.maxs.values[i] = std::max(temp.maxs.values[i], m.pos.values[i]);
-        temp.mins.values[i] = std::min(temp.mins.values[i], m.pos.values[i]);
+        temp.maxs.values[i] = std::max(temp.maxs.values[i], p.values[i]);
+        temp.mins.values[i] = std::min(temp.mins.values[i], p.values[i]);
       }
     return temp;
-  }
-
-  void addVox(vox v) {
-    // check contents -
-    for(auto& m : model) {
-      // if previously occupied, change color for model's entry
-      if( m.pos == v.pos ) {
-        m.color = v.color;
-        return;
-      }
-    }
-    // if not previously occupied, push v onto the model
-    model.push_back(v);
   }
 
   void stampRandom() { // stamping into the model list
@@ -135,7 +132,7 @@ public:
     col c = genColor(t);
 
     // orientation
-    std::uniform_int_distribution<int> orientG(0, 2);
+    std::uniform_int_distribution<int> orientG(0, 100);
     int orientation = orientG(rng);
 
     // where to draw? base point will be somewhere in the current bounding box
@@ -143,38 +140,70 @@ public:
     std::uniform_int_distribution<int> xG(b.mins.values[0], b.maxs.values[0]);
     std::uniform_int_distribution<int> yG(b.mins.values[1], b.maxs.values[1]);
     std::uniform_int_distribution<int> zG(b.mins.values[2], b.maxs.values[2]);
-    ivec3 base = ivec3(xG(rng), yG(rng), zG(rng));
+
+    // std::normal_distribution<float> xG((b.mins.values[0]+b.maxs.values[0])/2., (b.maxs.values[0]-b.mins.values[0])/9.);
+    // std::normal_distribution<float> yG((b.mins.values[1]+b.maxs.values[1])/2., (b.maxs.values[1]-b.mins.values[1])/9.);
+    // std::normal_distribution<float> zG((b.mins.values[2]+b.maxs.values[2])/2., (b.maxs.values[2]-b.mins.values[2])/9.);
+    ivec3 base = ivec3(std::round(xG(rng)), std::round(yG(rng)), std::round(zG(rng)));
 
     // stamp it (overwrite any existing contents)
-    vox v; v.color = c;
+    ivec3 p;
 		for(unsigned int xx = 0; xx < l.data.size(); xx++)
 		for(unsigned int yy = 0; yy < l.data[0].size(); yy++) {
       if(l.data[xx][yy]==1)
         for(int xs = 0; xs < xyScale; xs++)
         for(int ys = 0; ys < xyScale; ys++)
         for(int zs = 0; zs < zScale; zs++) {
-          switch (orientation) {
+          switch (orientation % 3) {
             // the drawing will start at the specified base point
-            case 0: v.pos = base + ivec3(xs, ys, zs) + ivec3(xx*xyScale, yy*xyScale, 0); break;
-            case 1: v.pos = base + ivec3(ys, xs, zs) + ivec3(yy*xyScale, xx*xyScale, 0); break;
-            case 2: v.pos = base + ivec3(ys, zs, xs) + ivec3(yy*xyScale, 0, xx*xyScale); break;
-            default: break;
+            case 0: p = base + ivec3(xs, ys, zs) + ivec3(xx*xyScale, yy*xyScale, 0); break;
+            case 1: p = base + ivec3(ys, xs, zs) + ivec3(yy*xyScale, xx*xyScale, 0); break;
+            case 2: p = base + ivec3(ys, zs, xs) + ivec3(yy*xyScale, 0, xx*xyScale); break;
+            default: continue;
           }
-          addVox(v);
+          model[p] = c;
         }
     }
   }
 
+  void shave() {
+    // remove voxels which have a coordinate on [axis] which is greater than the max minus slice distance
+    std::uniform_int_distribution<int> axisPick(0, 2);
+    std::uniform_int_distribution<int> amtPick(1, 20);
+    int axis = axisPick(rng);
+    axis = axisPick(rng);
+    axis = axisPick(rng);
+
+    int amt = amtPick(rng);
+    amt = amtPick(rng);
+    amt = getBBox().maxs.values[axis]-amtPick(rng);
+
+
+    for(auto& p : model) {
+      ivec3 t = p.first;
+      if(t.values[axis] >= amt)
+          model.erase(t);
+    }
+  }
+
   void flip() {
-    // pick an axis, and subtract the bbox axis max from the
+    // pick an axis, and subtract the bbox axis max from all points
     squareModel();
     std::uniform_int_distribution<int> axisPick(0, 2);
     int axis = axisPick(rng);
+    axis = axisPick(rng);
+    axis = axisPick(rng);
+    axis = axisPick(rng);
     bbox b = getBBox();
 
-    for(unsigned int i = 0; i < model.size(); i++) {
-      model[i].pos.values[axis] = b.maxs.values[axis] - model[i].pos.values[axis];
+    std::unordered_map<ivec3, col> newmodel;
+    for(auto& [p, m] : model) {
+      ivec3 pn=p, base=b.maxs;
+      pn.values[axis] = base.values[axis] - p.values[axis];
+      newmodel[pn] = m;
     }
+    model.clear();
+    model = newmodel;
   }
 
   void mirror() {
@@ -182,40 +211,50 @@ public:
     squareModel();
     std::uniform_int_distribution<int> axisPick(0, 2);
     int axis = axisPick(rng);
+    axis = axisPick(rng);
+    axis = axisPick(rng);
+    axis = axisPick(rng);
 
-    for(unsigned int i = 0; i < model.size(); i++) {
-      vox v = model[i];
-      v.pos.values[axis] *= -1;
-      addVox(v);
+    std::unordered_map<ivec3, col> newmodel;
+    for(auto& [p, m] : model) {
+      ivec3 np = p;
+      np.values[axis] *= -1;
+      newmodel[p] = m; // was getting weird corruption before, so we're doing it this way
+      newmodel[np] = m;
     }
+    model.clear();
+    model = newmodel;
   }
 
   void squareModel() {
     // makes sure all indices are positive offsets from negative faces
     bbox b = getBBox();
-    for(auto& m : model) {
-      m.pos.values[0] -= b.mins.values[0];
-      m.pos.values[1] -= b.mins.values[1];
-      m.pos.values[2] -= b.mins.values[2];
-    }
+    ivec3 offset = -1*b.mins;
+
+    std::unordered_map<ivec3, col> newmodel;
+    for(auto& [p, m] : model)
+      newmodel[p + offset] = m;
+    model.clear();
+    model = newmodel;
   }
 
   void genSpaceship() {
     model.clear();
-    // std::uniform_int_distribution<int> opPick(0, 3);
+    std::uniform_int_distribution<int> opPick(0, 100);
+    // for(unsigned int j = 0; j < 16; j++)
+    //   stampRandom();
     //
-    // for(unsigned int i = 0; i < num_ops; i++) {
+    // for(int i = 0; i < num_ops; i++) {
     //   std::cout << "operation " << i << std::endl;
-    //   switch(opPick(rng)){
+    //   switch(opPick(rng)%4){
     //     case 0:
     //     case 1:
-    //       for(unsigned int i = 0; i < 10; i++)
+    //       for(unsigned int j = 0; j < 16; j++)
     //         stampRandom();
     //       break;
     //
     //     case 2:
-    //       mirror(); flip();
-    //       mirror();
+    //       mirror(); flip(); mirror();
     //       break;
     //
     //     case 3:
@@ -231,8 +270,14 @@ public:
       stampRandom();
     mirror();
     flip();
+    for(unsigned int i = 0; i < 18; i++)
+      stampRandom();
     mirror();
     mirror();
+    mirror();
+    shave();
+    mirror();
+    flip();
     mirror();
 
 
@@ -248,9 +293,9 @@ public:
     values.resize(b.maxs.values[0]*b.maxs.values[1]*b.maxs.values[2], 0);
 
     // populate the vector of values
-    for(auto& m : model) {
-      int p = int(m.pos.values[0])+int(m.pos.values[1]*b.maxs.values[0])+int(m.pos.values[2]*b.maxs.values[0]*b.maxs.values[1]);
-      values[p] = 1;
+    for(auto& [p, m] : model) {
+      int index = int(p.values[0])+int(p.values[1]*b.maxs.values[0])+int(p.values[2]*b.maxs.values[0]*b.maxs.values[1]);
+      values[index] = 1;
     }
 
     std::cout << "otuput block is " << int(b.maxs.values[0]) << "x "<< int(b.maxs.values[1]) << "y "<< int(b.maxs.values[2]) << "z\n";
@@ -266,7 +311,6 @@ public:
     }
   }
 
-
   void getData(std::vector<unsigned char> &data, int dim) {
     if(data.size()==0) return;
 
@@ -274,26 +318,25 @@ public:
     bbox b = getBBox();
     ivec3 offset = ivec3((b.mins.values[0]+b.maxs.values[0])/2, (b.mins.values[1]+b.maxs.values[1])/2, (b.mins.values[2]+b.maxs.values[2])/2);
 
-    for(unsigned int i = 0; i < model.size(); i++) {
-      model[i].pos -= offset;
-      model[i].pos += ivec3(dim/2);
-      if(model[i].pos.values[0] < 0 || model[i].pos.values[0] >= dim || model[i].pos.values[1] < 0 || model[i].pos.values[1] >= dim || model[i].pos.values[2] < 0 || model[i].pos.values[2] >= dim) {
-        model.erase(model.begin()+i);
-        i--;
+    for(auto& p : model) {
+      ivec3 t = p.first;
+      const ivec3 k = t;
+      t -= offset;
+      t += ivec3(dim/2);
+      if(t.values[0] < 0 || t.values[0] >= dim ||
+         t.values[1] < 0 || t.values[1] >= dim ||
+         t.values[2] < 0 || t.values[2] >= dim) {
+          model.erase(t);
       }
     }
 
-    for(unsigned int i = 0; i < model.size(); i++) {
-      vox current = model[i];
-      int index = 4 * (current.pos.values[0] + current.pos.values[1]*dim + current.pos.values[2]*dim*dim);
-      data[index+0] = current.color.rgb.values[0] * 255;
-      data[index+1] = current.color.rgb.values[1] * 255;
-      data[index+2] = current.color.rgb.values[2] * 255;
-      data[index+3] = current.color.a * 255;
+    for(auto& [p, m] : model) {
+      int index = 4 * (p.values[0] + p.values[1]*dim + p.values[2]*dim*dim);
+      if(index > data.size() || index < 0) continue;
+      data[index+0] = m.rgb.values[0] * 255;
+      data[index+1] = m.rgb.values[1] * 255;
+      data[index+2] = m.rgb.values[2] * 255;
+      data[index+3] = m.a * 255;
     }
-
-
-
-
   }
 };
