@@ -173,11 +173,11 @@ public:
     int axis = axisPick(rng);
     axis = axisPick(rng);
     axis = axisPick(rng);
-    std::uniform_int_distribution<int> amtPick(1, b.maxs.values[axis]-5);
+    std::uniform_int_distribution<int> amtPick(b.maxs.values[axis]-5, b.maxs.values[axis]);
 
     int amt = amtPick(rng);
     amt = amtPick(rng);
-    amt = b.maxs.values[axis]-amtPick(rng);
+    amt = amtPick(rng);
 
     std::unordered_map<ivec3, col> newmodel;
     for(auto& [p, m] : model) {
@@ -244,46 +244,55 @@ public:
   void genSpaceship() {
     model.clear();
     std::uniform_int_distribution<int> opPick(0, 100);
-    // for(unsigned int j = 0; j < 16; j++)
-    //   stampRandom();
-    //
-    // for(int i = 0; i < num_ops; i++) {
-    //   std::cout << "operation " << i << std::endl;
-    //   switch(opPick(rng)%4){
-    //     case 0:
-    //     case 1:
-    //       for(unsigned int j = 0; j < 16; j++)
-    //         stampRandom();
-    //       break;
-    //
-    //     case 2:
-    //       mirror(); flip(); mirror();
-    //       break;
-    //
-    //     case 3:
-    //       mirror();
-    //       break;
-    //
-    //     default:
-    //       break;
-    //   }
-    // }
+    for(unsigned int j = 0; j < 16; j++)
+      stampRandom();
 
-    for(unsigned int i = 0; i < 18; i++)
-      stampRandom();
-    mirror();
-    flip();
-    for(unsigned int i = 0; i < 18; i++)
-      stampRandom();
-    mirror();
-    shave();
-    mirror();
-    mirror();
-    mirror();
-    shave();
-    flip();
-    shave();
-    mirror();
+    for(int i = 0; i < num_ops; i++) {
+      std::cout << "operation " << i << std::endl;
+      switch(opPick(rng)%5){
+        case 0:
+        case 1:
+          for(unsigned int j = 0; j < 16; j++)
+            stampRandom();
+          break;
+
+        case 2:
+          mirror(); flip(); mirror();
+          break;
+
+        case 3:
+          mirror();
+          break;
+
+        case 4:
+          shave();
+          break;
+
+        default:
+          break;
+      }
+    }
+
+    // for(unsigned int i = 0; i < 18; i++)
+    //   stampRandom();
+    // mirror();
+    // flip();
+    // for(unsigned int i = 0; i < 18; i++)
+    //   stampRandom();
+    // mirror();
+    // shave();
+    // mirror();
+    // shave();
+    // shave();
+    // shave();
+    // mirror();
+    // flip();
+    // mirror();
+    // mirror();
+    // shave();
+    // flip();
+    // shave();
+    // mirror();
 
 
   }
