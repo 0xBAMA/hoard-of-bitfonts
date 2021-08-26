@@ -168,22 +168,25 @@ public:
 
   void shave() {
     // remove voxels which have a coordinate on [axis] which is greater than the max minus slice distance
+    bbox b = getBBox();
     std::uniform_int_distribution<int> axisPick(0, 2);
-    std::uniform_int_distribution<int> amtPick(1, 20);
     int axis = axisPick(rng);
     axis = axisPick(rng);
     axis = axisPick(rng);
+    std::uniform_int_distribution<int> amtPick(1, b.maxs.values[axis]-5);
 
     int amt = amtPick(rng);
     amt = amtPick(rng);
-    amt = getBBox().maxs.values[axis]-amtPick(rng);
+    amt = b.maxs.values[axis]-amtPick(rng);
 
-
-    for(auto& p : model) {
-      ivec3 t = p.first;
-      if(t.values[axis] >= amt)
-          model.erase(t);
+    std::unordered_map<ivec3, col> newmodel;
+    for(auto& [p, m] : model) {
+      ivec3 pn=p;
+      if(pn.values[axis] < amt)
+        newmodel[pn] = m;
     }
+    model.clear();
+    model = newmodel;
   }
 
   void flip() {
@@ -273,11 +276,13 @@ public:
     for(unsigned int i = 0; i < 18; i++)
       stampRandom();
     mirror();
+    shave();
+    mirror();
     mirror();
     mirror();
     shave();
-    mirror();
     flip();
+    shave();
     mirror();
 
 
