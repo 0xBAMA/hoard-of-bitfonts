@@ -58,8 +58,10 @@ public:
   std::mt19937_64 rng;
   void genRandomEngine() {
     std::random_device r;
-    std::seed_seq s{r(), r(), r(), r(), r(), r(), r(), r(), r()};
-    rng = std::mt19937_64(s);
+    // std::seed_seq s{r(), r(), r(), r(), r(), r(), r(), r(), r()};
+    // rng = std::mt19937_64(s);
+    rng = std::mt19937_64(r());
+
   }
 
   // iq style palette
@@ -78,7 +80,7 @@ public:
       pvals.push_back(c);
     }
     // make sure one has a low alpha value, to allow for something like windows
-    pvals[0].a = 0.38;
+    pvals[0].a = 0.58;
   }
 
   // sample the palette function at a randomly generated location
@@ -132,37 +134,44 @@ public:
     col c = genColor(t);
 
     // orientation
-    std::uniform_int_distribution<int> orientG(0, 100);
+    std::uniform_int_distribution<int> orientG(0, 2);
     int orientation = orientG(rng);
+    orientation = orientG(rng);
+    orientation = orientG(rng);
+    orientation = orientG(rng);
+    orientation = orientG(rng);
+    orientation = orientG(rng);
 
     // where to draw? base point will be somewhere in the current bounding box
     bbox b = getBBox();
-    std::uniform_int_distribution<int> xG(b.mins.values[0], b.maxs.values[0]);
-    std::uniform_int_distribution<int> yG(b.mins.values[1], b.maxs.values[1]);
-    std::uniform_int_distribution<int> zG(b.mins.values[2], b.maxs.values[2]);
+    // std::uniform_int_distribution<int> xG(b.mins.values[0], b.maxs.values[0]);
+    // std::uniform_int_distribution<int> yG(b.mins.values[1], b.maxs.values[1]);
+    // std::uniform_int_distribution<int> zG(b.mins.values[2], b.maxs.values[2]);
 
-    // std::normal_distribution<float> xG((b.mins.values[0]+b.maxs.values[0])/2., (b.maxs.values[0]-b.mins.values[0])/9.);
-    // std::normal_distribution<float> yG((b.mins.values[1]+b.maxs.values[1])/2., (b.maxs.values[1]-b.mins.values[1])/9.);
-    // std::normal_distribution<float> zG((b.mins.values[2]+b.maxs.values[2])/2., (b.maxs.values[2]-b.mins.values[2])/9.);
+    std::normal_distribution<float> xG((b.mins.values[0]+b.maxs.values[0])/2., (b.maxs.values[0]-b.mins.values[0])/9.);
+    std::normal_distribution<float> yG((b.mins.values[1]+b.maxs.values[1])/2., (b.maxs.values[1]-b.mins.values[1])/9.);
+    std::normal_distribution<float> zG((b.mins.values[2]+b.maxs.values[2])/2., (b.maxs.values[2]-b.mins.values[2])/9.);
     ivec3 base = ivec3(std::round(xG(rng)), std::round(yG(rng)), std::round(zG(rng)));
 
     // stamp it (overwrite any existing contents)
     ivec3 p;
 		for(unsigned int xx = 0; xx < l.data.size(); xx++)
 		for(unsigned int yy = 0; yy < l.data[0].size(); yy++) {
-      if(l.data[xx][yy]==1)
+      if(l.data[xx][yy]==1) {
         for(int xs = 0; xs < xyScale; xs++)
         for(int ys = 0; ys < xyScale; ys++)
         for(int zs = 0; zs < zScale; zs++) {
-          switch (orientation % 3) {
+          switch (orientation) {
             // the drawing will start at the specified base point
-            case 0: p = base + ivec3(xs, ys, zs) + ivec3(xx*xyScale, yy*xyScale, 0); break;
-            case 1: p = base + ivec3(ys, xs, zs) + ivec3(yy*xyScale, xx*xyScale, 0); break;
-            case 2: p = base + ivec3(ys, zs, xs) + ivec3(yy*xyScale, 0, xx*xyScale); break;
+            case 0: p = base + ivec3(xs, ys, zs) + ivec3(xx*xyScale, yy*xyScale, 0);  break;
+            case 1: p = base + ivec3(ys, xs, zs) + ivec3(yy*xyScale, xx*xyScale, 0);  break;
+            case 2: p = base + ivec3(ys, zs, xs) + ivec3(yy*xyScale, 0, xx*xyScale);  break;
             default: continue;
           }
           model[p] = c;
         }
+        std::cout << " " << orientation;
+      }
     }
   }
 
@@ -244,7 +253,7 @@ public:
   void genSpaceship() {
     model.clear();
     std::uniform_int_distribution<int> opPick(0, 100);
-    for(unsigned int j = 0; j < 16; j++)
+    for(unsigned int j = 0; j < 22; j++)
       stampRandom();
 
     for(int i = 0; i < num_ops; i++) {
@@ -252,7 +261,7 @@ public:
       switch(opPick(rng)%5){
         case 0:
         case 1:
-          for(unsigned int j = 0; j < 16; j++)
+          for(unsigned int j = 0; j < 22; j++)
             stampRandom();
           break;
 
