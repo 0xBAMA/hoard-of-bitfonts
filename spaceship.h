@@ -1,7 +1,7 @@
 #include "letters.h"
 #include "vector.h"
-#include <random>
 #include <algorithm>
+#include <random>
 #include <unordered_map>
 
 struct bbox {
@@ -48,6 +48,7 @@ public:
   }
 
   int num_ops;
+  float spread;
 
   int maxxyScale;
   int minxyScale;
@@ -137,11 +138,6 @@ public:
     // orientation
     std::uniform_int_distribution<int> orientG(0, 2);
     int orientation = orientG(rng);
-    orientation = orientG(rng);
-    orientation = orientG(rng);
-    orientation = orientG(rng);
-    orientation = orientG(rng);
-    orientation = orientG(rng);
 
     // where to draw? base point will be somewhere in the current bounding box
     bbox b = getBBox();
@@ -149,9 +145,9 @@ public:
     // std::uniform_int_distribution<int> yG(b.mins.values[1], b.maxs.values[1]);
     // std::uniform_int_distribution<int> zG(b.mins.values[2], b.maxs.values[2]);
 
-    std::normal_distribution<float> xG((b.mins.values[0]+b.maxs.values[0])/2., (b.maxs.values[0]-b.mins.values[0])/9.);
-    std::normal_distribution<float> yG((b.mins.values[1]+b.maxs.values[1])/2., (b.maxs.values[1]-b.mins.values[1])/9.);
-    std::normal_distribution<float> zG((b.mins.values[2]+b.maxs.values[2])/2., (b.maxs.values[2]-b.mins.values[2])/9.);
+    std::normal_distribution<float> xG((b.mins.values[0]+b.maxs.values[0])/2., (b.maxs.values[0]-b.mins.values[0])*spread);
+    std::normal_distribution<float> yG((b.mins.values[1]+b.maxs.values[1])/2., (b.maxs.values[1]-b.mins.values[1])*spread);
+    std::normal_distribution<float> zG((b.mins.values[2]+b.maxs.values[2])/2., (b.maxs.values[2]-b.mins.values[2])*spread);
     ivec3 base = ivec3(std::round(xG(rng)), std::round(yG(rng)), std::round(zG(rng)));
 
     // stamp it (overwrite any existing contents)
@@ -181,8 +177,6 @@ public:
     bbox b = getBBox();
     std::uniform_int_distribution<int> axisPick(0, 2);
     int axis = axisPick(rng);
-    axis = axisPick(rng);
-    axis = axisPick(rng);
     std::uniform_int_distribution<int> amtPick(b.maxs.values[axis]-5, b.maxs.values[axis]);
 
     int amt = amtPick(rng);
@@ -204,9 +198,6 @@ public:
     squareModel();
     std::uniform_int_distribution<int> axisPick(0, 2);
     int axis = axisPick(rng);
-    axis = axisPick(rng);
-    axis = axisPick(rng);
-    axis = axisPick(rng);
     bbox b = getBBox();
 
     std::unordered_map<ivec3, col> newmodel;
@@ -224,9 +215,6 @@ public:
     squareModel();
     std::uniform_int_distribution<int> axisPick(0, 2);
     int axis = axisPick(rng);
-    axis = axisPick(rng);
-    axis = axisPick(rng);
-    axis = axisPick(rng);
 
     std::unordered_map<ivec3, col> newmodel;
     for(auto& [p, m] : model) {
