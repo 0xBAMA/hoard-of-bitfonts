@@ -99,7 +99,8 @@ public:
 
 
 
-  // holds a list of occupied voxels and their content - this style of volume representation makes it easier to mirror, etc. than with a dense volume
+  // holds a list of occupied voxels and their content - this style of volume
+  // representation makes it easier to mirror, etc. than with a dense volume
   // std::vector<vox> model;
   std::unordered_map<ivec3, col> model;
 
@@ -162,17 +163,17 @@ public:
         for(int ys = 0; ys < xyScale; ys++)
         for(int zs = 0; zs < zScale; zs++) {
           switch (orientation) {
-            // the drawing will start at the specified base point
-            case 0: p = base + ivec3(xs, ys, zs) + ivec3(xx*xyScale, yy*xyScale, 0);  break;
-            case 1: p = base + ivec3(ys, xs, zs) + ivec3(yy*xyScale, xx*xyScale, 0);  break;
-            case 2: p = base + ivec3(ys, zs, xs) + ivec3(yy*xyScale, 0, xx*xyScale);  break;
+            // the drawing will start at the specified base point - now centering on glyph center
+            case 0: p = base + ivec3(xs, ys, zs) + ivec3(xx*xyScale, yy*xyScale, 0) - ivec3(l.data.size()/2, l.data[0].size(), 0);  break;
+            case 1: p = base + ivec3(ys, xs, zs) + ivec3(yy*xyScale, xx*xyScale, 0) - ivec3(l.data[0].size()/2, l.data.size(), 0);  break;
+            case 2: p = base + ivec3(ys, zs, xs) + ivec3(yy*xyScale, 0, xx*xyScale) - ivec3(l.data[0].size()/2, 0, l.data.size());  break;
             default: continue;
           }
           model[p] = c;
         }
-        std::cout << " " << orientation;
       }
     }
+    std::cout << " " << orientation;
   }
 
   void shave() {
