@@ -306,6 +306,19 @@ int main(int argc, char const *argv[]) {
         std::cout << "loaded " << letters.size() << " letters from " << j.size() << " fonts." << std::endl;
       }
 
+
+        		std::ifstream i2("optimized.json");
+        		json j2; i2 >> j2;
+            int original_count = 0;
+
+            for (auto& font : j2) // per font
+            for (auto& character : font) // per character
+              original_count++;
+
+            std::cout << std::endl << "vs " << original_count << " from the original fonts" << std::endl;
+
+
+
       size_t max_vertical_size = 0;
       size_t max_horizontal_size = 0;
     for(auto& letter : letters)
@@ -352,28 +365,28 @@ int main(int argc, char const *argv[]) {
     std::mt19937_64 gen = std::mt19937_64(s);
 
 		std::uniform_int_distribution<int> color(60, 189);
+    //
+    // for(auto& rect : rects) {
+    //   int col = color(gen);
+    //   for(int x = 0; x < rect.w-1; x++) // compensate for padding
+    //   for(int y = 0; y < rect.h-1; y++) {
+    //     int base = ((x+rect.x+7) + width_pixels * (y+rect.y+7)) * 4;
+    //     if(letters[rect.index].data[y][x] == 1) {
+    //       image[base+0] = 0;
+    //       image[base+1] = 0;
+    //       image[base+2] = 0;
+    //       image[base+3] = 255;
+    //     }else{
+    //       image[base+0] = col;
+    //       image[base+1] = col;
+    //       image[base+2] = col;
+    //       image[base+3] = 255;
+    //     }
+    //   }
+    //   ymax = std::max(rect.y+rect.h+14, ymax);
+    // }
 
-    for(auto& rect : rects) {
-      int col = color(gen);
-      for(int x = 0; x < rect.w-1; x++) // compensate for padding
-      for(int y = 0; y < rect.h-1; y++) {
-        int base = ((x+rect.x+7) + width_pixels * (y+rect.y+7)) * 4;
-        if(letters[rect.index].data[y][x] == 1) {
-          image[base+0] = 0;
-          image[base+1] = 0;
-          image[base+2] = 0;
-          image[base+3] = 255;
-        }else{
-          image[base+0] = col;
-          image[base+1] = col;
-          image[base+2] = col;
-          image[base+3] = 255;
-        }
-      }
-      ymax = std::max(rect.y+rect.h+14, ymax);
-    }
 
 
-
-      stbi_write_png("test2.png", width_pixels, ymax, 4, &image[0], width_pixels * 4);
+      // stbi_write_png("test2.png", width_pixels, ymax, 4, &image[0], width_pixels * 4);
 }

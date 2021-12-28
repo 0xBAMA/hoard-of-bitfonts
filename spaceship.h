@@ -84,6 +84,19 @@ public:
     pvals[0].a = 0.58;
   }
 
+  // palette is an iq style palette
+  // https://iquilezles.org/www/articles/palettes/palettes.htm
+  void setPalette(float input[4][4]) {
+    for(unsigned int i = 0; i < 4; i++) {
+      col c;
+      c.rgb.values[0] = input[i][0];
+      c.rgb.values[1] = input[i][1];
+      c.rgb.values[2] = input[i][2];
+      c.a = input[i][3];
+      pvals.push_back(c);
+    }
+  }
+
   // sample the palette function at a randomly generated location
   // https://www.shadertoy.com/view/ll2GD3
   col genColor(float t) {
