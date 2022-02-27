@@ -12,6 +12,7 @@ using json = nlohmann::json;
 
 class letter {
 public:
+	bool flaggedForRemoval = false;
 	std::vector<std::vector<unsigned char>> data;
 	void buildrow(int r, std::string s) {
 		std::vector<unsigned char> ints;
@@ -32,7 +33,7 @@ public:
 	void print() {
 		for(auto row : data) {
 			for(auto elem : row) {
-				std::cout << elem;
+				std::cout << (int)elem;
 			}
 			std::cout << std::endl;
 		}
@@ -51,15 +52,13 @@ public:
 
 	friend bool operator== (const letter& l1, const letter& l2){
 		if(l1.data.size()!=l2.data.size()) return false; // y dim doesn'nt match
-		if(l1.data[0].size()!=l1.data[0].size()) return false; // z dim doesn't match
+		if(l1.data[0].size()!=l2.data[0].size()) return false; // x dim doesn't match
 		for(unsigned int i = 0; i < l1.data.size(); i++)
 		for(unsigned int j = 0; j < l1.data[0].size(); j++)
 			if(l1.data[i][j]!=l2.data[i][j])
 				return false;
 		return true;
 	}
-
-
 };
 
 class letter_selector {
@@ -127,63 +126,123 @@ public:
 	std::vector<letter> letters;
 	void populate(std::vector<unsigned char> &data, int dim, int count, int num_dirs, float color[4]){
 		// load the model into the list of letters
-		std::ifstream i("resources/hoard-of-bitfonts/optimized.json");
+		std::ifstream ii("./optimized.json");
 		// std::ifstream i("monolithic_model.json");
-		json j; i >> j;
-
-		// for (auto& element : j) { // per font
-		// 	// std::cout << element["label"] << '\n';
-		// 	for(unsigned int i = 0; i < element["num_glyphs"]; i++) { // per glyph in the font
-		// 		letter temp;
-		// 		int y=0;
-		// 		temp.data.resize(element["glyph"+std::to_string(i)+"data"].size());
-		// 		for(auto& row : element["glyph"+std::to_string(i)+"data"]) { // per row in the data
-		// 			temp.buildrow(y, row);
-		// 			y++;
-		// 		}
-		// 		if(!temp.nfg) letters.push_back(temp);
-		// 		// else std::cout << element["label"] << " " << i << " bad data " << endl; // this needs to be fixed in the actual data at some point
-		// 	}
-		// }
+		json jj; ii >> jj;
 
 
-		if(letters.size() == 0){
-			for (auto& element : j) { // per character
-				letter temp; int y = 0;
-				temp.data.resize(element.size());
-				for(auto& row : element) {
+		// get the new font, add it to the letters list
+		json j;
+		// std::ifstream i("./trs-80/trs80-coco3-rom.draw");
+		std::ifstream i("./dingo.json");
+		i >> j;
+		for (auto& element : j) { // per font
+			// std::cout << element["label"] << '\n';
+			for(unsigned int i = 0; i < element["num_glyphs"]; i++) { // per glyph in the font
+				letter temp;
+				int y=0;
+				temp.data.resize(element["glyph"+std::to_string(i)+"data"].size());
+				for(auto& row : element["glyph"+std::to_string(i)+"data"]) { // per row in the data
 					temp.buildrow(y, row);
 					y++;
 				}
 				if(!temp.nfg) letters.push_back(temp);
+				// else std::cout << element["label"] << " " << i << " bad data " << endl; // this needs to be fixed in the actual data at some point
 			}
-
-			std::cout << "loaded " << letters.size() << " letters from " << j.size() << " fonts." << std::endl;
 		}
-		if(data.size()==0) return; //
 
-		std::mt19937_64 gen;
-		std::random_device r;
-		std::seed_seq s{r(), r(), r(), r(), r(), r(), r(), r(), r()};
-		gen = std::mt19937_64(s);
 
-		std::uniform_int_distribution<int> colo(-15, 15);
-		std::uniform_int_distribution<int> pick(0, letters.size());
-		std::uniform_int_distribution<int> loc(0, dim);
-		std::uniform_int_distribution<int> dir(1, (num_dirs%6)+1);
-		std::uniform_int_distribution<int> sca(1, (num_dirs/6)+1);
-
-		unsigned char col[4];
-
-		// begin to pick letters
-		for(int i = 0; i < count; i++) {
-
-			// randomize position and color (a small amount with the <random> distributions)
-			for(int j = 0; j < 4; j++)
-				col[j] = (color[j]*255)+colo(gen);
-
-			stamp(letters[pick(gen)], loc(gen), loc(gen), loc(gen), dir(gen), sca(gen), col, data, dim);
+		// get all the other glyphs in the optimized list
+		for (auto& element : jj) { // per character
+			letter temp; int y = 0;
+			temp.data.resize(element.size());
+			for(auto& row : element) {
+				temp.buildrow(y, row);
+				y++;
+			}
+			if(!temp.nfg) letters.push_back(temp);
 		}
+		std::cout << "loaded " << letters.size() << " letters from " << jj.size() << " fonts." << std::endl;
+
+		// remove duplicates
+		// for( int i = 0; i < letters.size(); i++ ) {
+		// 	for( int j = i + 1; j < letters.size(); j++ ) {
+		// 		if( letters[ i ] == letters[ j ] ) {
+		// 			letters.erase( letters.begin() + j );
+		// 			letters[ j ].print();
+		// 			std::cout << " removed" << std::endl;
+		// 			j--;
+		// 		}
+		// 	}
+		// }
+
+		// std::cout << "letters remaining: " << letters.size() << std::endl;
+
+
+
+	json jjj; int index = 0;
+	for(auto lett : letters) {
+		std::vector< std::string > rows;
+		rows.resize( lett.data.size() );
+		for(int i = 0; i < lett.data.size(); i++)
+			for(int j = 0; j < lett.data[ 0 ].size(); j++)
+				rows[ i ].append( 1, lett.data[ i ][ j ] ? '@' : '.' ); // back to the expected format
+		jjj[ std::to_string( index ) ] = rows;
+		index++;
+	}
+
+		// dump new optimized file
+		std::ofstream o("./optimized.json");
+		o << jjj.dump(1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// if(data.size()==0) return; //
+		//
+		// std::mt19937_64 gen;
+		// std::random_device r;
+		// std::seed_seq s{r(), r(), r(), r(), r(), r(), r(), r(), r()};
+		// gen = std::mt19937_64(s);
+		//
+		// std::uniform_int_distribution<int> colo(-15, 15);
+		// std::uniform_int_distribution<int> pick(0, letters.size());
+		// std::uniform_int_distribution<int> loc(0, dim);
+		// std::uniform_int_distribution<int> dir(1, (num_dirs%6)+1);
+		// std::uniform_int_distribution<int> sca(1, (num_dirs/6)+1);
+		//
+		// unsigned char col[4];
+		//
+		// // begin to pick letters
+		// for(int i = 0; i < count; i++) {
+		//
+		// 	// randomize position and color (a small amount with the <random> distributions)
+		// 	for(int j = 0; j < 4; j++)
+		// 		col[j] = (color[j]*255)+colo(gen);
+		//
+		// 	stamp(letters[pick(gen)], loc(gen), loc(gen), loc(gen), dir(gen), sca(gen), col, data, dim);
+		// }
 	}
 };
 
