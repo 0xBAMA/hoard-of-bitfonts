@@ -50,10 +50,6 @@ void CountDimensions () {
 
 void Distribution ( dimensions d ) {
 	int bins[ 10 ] = { 0 };
-	// for ( int i = 0; i < 10; i++ ) {
-		// bins[ i ] = 0;
-	// }
-
 	for ( int i = 0; i < d.fills.size(); i++ ) {
 		bins[ std::clamp( int( 10 * d.fills[ i ] ), 0, 9 ) ]++;
 	}
@@ -76,6 +72,5 @@ int main ( int argc, char const *argv[] ) {
 	PopulateList();
 	CountDimensions();
 	EnumerateDimensions();
-
 	return 0;
 }
