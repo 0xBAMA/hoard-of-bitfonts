@@ -184,8 +184,8 @@ public:
 	for(auto lett : letters) {
 		std::vector< std::string > rows;
 		rows.resize( lett.data.size() );
-		for(int i = 0; i < lett.data.size(); i++)
-			for(int j = 0; j < lett.data[ 0 ].size(); j++)
+		for(unsigned int i = 0; i < lett.data.size(); i++)
+			for(unsigned int j = 0; j < lett.data[ 0 ].size(); j++)
 				rows[ i ].append( 1, lett.data[ i ][ j ] ? '@' : '.' ); // back to the expected format
 		jjj[ std::to_string( index ) ] = rows;
 		index++;
