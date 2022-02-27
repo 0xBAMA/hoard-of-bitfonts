@@ -36,8 +36,9 @@ void ReadUintModel () {
 
 int main ( int argc, char const *argv[] ) {
 	ReadUintModel();
-	std::cout << "loaded " << glyphs.size() << std::endl;
+	std::cout << "loaded " << glyphs.size() << " glyphs" << std::endl << std::endl;
 
+	// print a glyph
 	glyphs[ 99 ].print();
 
 	// letter class data access:
