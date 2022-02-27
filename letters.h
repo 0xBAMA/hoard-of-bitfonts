@@ -40,6 +40,16 @@ public:
 		std::cout << std::endl;
 	}
 
+	float fill () {
+		float fillp = 0.0;
+		for(auto row : data) {
+			for(auto elem : row) {
+				fillp += (int)elem;
+			}
+		}
+		return fillp / float( data.size() * data[ 1 ].size() );
+	}
+
 
 	bool check() {
 		unsigned int firstrow = data.empty() ? 0 : data[0].size();

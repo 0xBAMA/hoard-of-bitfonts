@@ -1,0 +1,2254 @@
+there are 751 distinct glyph sizes
+8 by 8 showed up 9557 times
+| 451 | 1517 | 2714 | 2020 | 1129 | 508 | 293 | 542 | 290 | 92 | 
+
+10 by 10 showed up 337 times
+| 33 | 105 | 161 | 35 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 20 showed up 110 times
+| 26 | 49 | 22 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 9 showed up 59 times
+| 5 | 15 | 35 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 20 showed up 849 times
+| 126 | 406 | 299 | 17 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 10 showed up 1655 times
+| 146 | 517 | 610 | 233 | 81 | 48 | 11 | 7 | 1 | 0 | 
+
+5 by 15 showed up 324 times
+| 77 | 122 | 109 | 14 | 1 | 0 | 1 | 0 | 0 | 0 | 
+
+14 by 18 showed up 171 times
+| 9 | 79 | 76 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 15 showed up 325 times
+| 35 | 165 | 117 | 7 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 28 showed up 56 times
+| 6 | 14 | 36 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 13 showed up 558 times
+| 27 | 200 | 248 | 62 | 14 | 3 | 1 | 2 | 0 | 0 | 
+
+11 by 11 showed up 59 times
+| 11 | 29 | 18 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 15 showed up 332 times
+| 17 | 204 | 105 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 11 showed up 85 times
+| 2 | 4 | 19 | 18 | 11 | 20 | 9 | 2 | 0 | 0 | 
+
+6 by 9 showed up 517 times
+| 28 | 108 | 290 | 83 | 6 | 0 | 2 | 0 | 0 | 0 | 
+
+8 by 24 showed up 65 times
+| 21 | 30 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 15 showed up 287 times
+| 42 | 115 | 122 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 9 showed up 173 times
+| 11 | 15 | 64 | 64 | 19 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 11 showed up 13 times
+| 1 | 1 | 6 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 15 showed up 614 times
+| 86 | 297 | 209 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 8 showed up 1945 times
+| 98 | 273 | 610 | 467 | 95 | 159 | 131 | 72 | 37 | 2 | 
+
+9 by 16 showed up 593 times
+| 86 | 329 | 173 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 19 showed up 71 times
+| 10 | 40 | 18 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 10 showed up 269 times
+| 12 | 65 | 157 | 35 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 43 showed up 61 times
+| 6 | 43 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 20 showed up 209 times
+| 42 | 64 | 88 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 11 showed up 2 times
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 15 showed up 600 times
+| 99 | 323 | 170 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 11 showed up 8 times
+| 1 | 4 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 28 showed up 59 times
+| 22 | 17 | 19 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 9 showed up 187 times
+| 7 | 37 | 118 | 23 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 15 showed up 504 times
+| 70 | 266 | 156 | 10 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 11 showed up 316 times
+| 18 | 77 | 197 | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 24 showed up 42 times
+| 10 | 19 | 11 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 11 showed up 92 times
+| 7 | 31 | 50 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 19 showed up 126 times
+| 14 | 73 | 38 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 24 showed up 66 times
+| 8 | 39 | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 15 showed up 184 times
+| 7 | 57 | 105 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 28 showed up 29 times
+| 3 | 3 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 11 showed up 424 times
+| 19 | 101 | 199 | 73 | 29 | 3 | 0 | 0 | 0 | 0 | 
+
+19 by 18 showed up 33 times
+| 7 | 10 | 15 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 15 showed up 1029 times
+| 85 | 456 | 382 | 103 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 11 showed up 7 times
+| 1 | 1 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 12 showed up 1230 times
+| 92 | 427 | 566 | 93 | 8 | 21 | 16 | 0 | 6 | 0 | 
+
+9 by 11 showed up 160 times
+| 11 | 39 | 99 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 28 showed up 13 times
+| 0 | 1 | 4 | 7 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 11 showed up 40 times
+| 0 | 10 | 26 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 9 showed up 23 times
+| 6 | 6 | 5 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 24 showed up 117 times
+| 20 | 59 | 36 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 20 showed up 354 times
+| 70 | 138 | 129 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 28 showed up 75 times
+| 41 | 18 | 10 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 9 showed up 67 times
+| 10 | 22 | 16 | 17 | 1 | 1 | 0 | 0 | 0 | 0 | 
+
+8 by 18 showed up 228 times
+| 38 | 55 | 101 | 34 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 11 showed up 20 times
+| 0 | 6 | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 11 showed up 2 times
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 9 showed up 128 times
+| 7 | 28 | 65 | 26 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 11 showed up 147 times
+| 40 | 38 | 61 | 7 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 18 showed up 495 times
+| 82 | 206 | 172 | 35 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 15 showed up 62 times
+| 25 | 6 | 28 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 43 showed up 18 times
+| 0 | 15 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 24 showed up 36 times
+| 8 | 16 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 15 showed up 163 times
+| 36 | 61 | 44 | 21 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 28 showed up 19 times
+| 3 | 8 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 19 showed up 55 times
+| 17 | 21 | 12 | 3 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 18 showed up 216 times
+| 56 | 66 | 77 | 15 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 11 showed up 876 times
+| 82 | 301 | 409 | 81 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 15 showed up 54 times
+| 0 | 32 | 19 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 15 showed up 72 times
+| 6 | 34 | 28 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 15 showed up 282 times
+| 59 | 113 | 94 | 14 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 10 showed up 359 times
+| 19 | 58 | 172 | 97 | 13 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 43 showed up 5 times
+| 4 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 24 showed up 129 times
+| 28 | 75 | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 9 showed up 90 times
+| 7 | 21 | 41 | 18 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 43 showed up 32 times
+| 2 | 24 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 28 showed up 38 times
+| 15 | 9 | 12 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 14 showed up 202 times
+| 42 | 117 | 40 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 14 showed up 34 times
+| 1 | 9 | 22 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 14 showed up 144 times
+| 24 | 57 | 58 | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+23 by 14 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 14 showed up 12 times
+| 1 | 7 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 19 showed up 34 times
+| 12 | 18 | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 16 showed up 72 times
+| 28 | 18 | 23 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 14 showed up 156 times
+| 11 | 56 | 76 | 12 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 14 showed up 642 times
+| 85 | 296 | 223 | 35 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 9 showed up 416 times
+| 14 | 63 | 173 | 148 | 15 | 3 | 0 | 0 | 0 | 0 | 
+
+11 by 9 showed up 33 times
+| 1 | 2 | 10 | 19 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 18 showed up 142 times
+| 3 | 43 | 83 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 9 showed up 14 times
+| 0 | 0 | 7 | 6 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 9 showed up 7 times
+| 0 | 1 | 2 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 9 showed up 10 times
+| 0 | 1 | 5 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 9 showed up 18 times
+| 1 | 1 | 9 | 4 | 2 | 1 | 0 | 0 | 0 | 0 | 
+
+14 by 9 showed up 11 times
+| 0 | 0 | 4 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 9 showed up 2 times
+| 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 14 showed up 73 times
+| 7 | 31 | 25 | 9 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 9 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 10 showed up 779 times
+| 43 | 142 | 447 | 130 | 16 | 1 | 0 | 0 | 0 | 0 | 
+
+7 by 14 showed up 374 times
+| 28 | 183 | 141 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 15 showed up 106 times
+| 3 | 46 | 45 | 11 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 12 showed up 722 times
+| 63 | 197 | 338 | 89 | 23 | 6 | 3 | 0 | 1 | 1 | 
+
+7 by 12 showed up 1136 times
+| 95 | 299 | 563 | 143 | 28 | 5 | 0 | 1 | 1 | 0 | 
+
+10 by 12 showed up 377 times
+| 11 | 80 | 206 | 73 | 7 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 16 showed up 172 times
+| 27 | 69 | 46 | 18 | 12 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 12 showed up 760 times
+| 57 | 254 | 358 | 83 | 8 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 12 showed up 198 times
+| 14 | 55 | 95 | 32 | 1 | 1 | 0 | 0 | 0 | 0 | 
+
+8 by 16 showed up 2412 times
+| 235 | 626 | 470 | 437 | 271 | 147 | 71 | 17 | 79 | 58 | 
+
+13 by 18 showed up 187 times
+| 5 | 46 | 123 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 16 showed up 257 times
+| 52 | 121 | 62 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 14 showed up 54 times
+| 0 | 14 | 35 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 14 showed up 31 times
+| 0 | 9 | 18 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 12 showed up 419 times
+| 82 | 106 | 163 | 59 | 7 | 2 | 0 | 0 | 0 | 0 | 
+
+7 by 28 showed up 25 times
+| 2 | 5 | 15 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 14 showed up 16 times
+| 0 | 2 | 13 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 16 showed up 461 times
+| 38 | 129 | 183 | 88 | 12 | 7 | 0 | 1 | 0 | 2 | 
+
+15 by 14 showed up 136 times
+| 40 | 45 | 37 | 12 | 1 | 1 | 0 | 0 | 0 | 0 | 
+
+7 by 27 showed up 23 times
+| 2 | 15 | 5 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 14 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 5 showed up 4 times
+| 1 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 
+
+12 by 19 showed up 84 times
+| 9 | 57 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 5 showed up 22 times
+| 0 | 4 | 5 | 6 | 5 | 1 | 1 | 0 | 0 | 0 | 
+
+8 by 12 showed up 2696 times
+| 322 | 1102 | 637 | 322 | 41 | 51 | 23 | 22 | 136 | 39 | 
+
+3 by 5 showed up 38 times
+| 0 | 2 | 18 | 10 | 7 | 1 | 0 | 0 | 0 | 0 | 
+
+4 by 8 showed up 167 times
+| 8 | 35 | 58 | 41 | 19 | 6 | 0 | 0 | 0 | 0 | 
+
+10 by 16 showed up 364 times
+| 20 | 215 | 114 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 8 showed up 729 times
+| 26 | 105 | 169 | 149 | 50 | 19 | 54 | 98 | 42 | 16 | 
+
+15 by 12 showed up 30 times
+| 0 | 1 | 23 | 4 | 1 | 1 | 0 | 0 | 0 | 0 | 
+
+12 by 12 showed up 329 times
+| 31 | 77 | 182 | 37 | 1 | 1 | 0 | 0 | 0 | 0 | 
+
+10 by 27 showed up 65 times
+| 15 | 21 | 28 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 8 showed up 280 times
+| 8 | 37 | 99 | 91 | 40 | 5 | 0 | 0 | 0 | 0 | 
+
+3 by 12 showed up 159 times
+| 36 | 42 | 58 | 19 | 4 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 8 showed up 72 times
+| 9 | 22 | 31 | 3 | 2 | 5 | 0 | 0 | 0 | 0 | 
+
+13 by 12 showed up 69 times
+| 2 | 31 | 31 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 8 showed up 25 times
+| 6 | 8 | 4 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 24 showed up 5 times
+| 0 | 1 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 27 showed up 94 times
+| 7 | 66 | 20 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 18 showed up 18 times
+| 1 | 11 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 12 showed up 32 times
+| 1 | 6 | 14 | 10 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+13 by 14 showed up 57 times
+| 7 | 25 | 24 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 18 showed up 88 times
+| 11 | 20 | 53 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 18 showed up 191 times
+| 10 | 61 | 112 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 14 showed up 132 times
+| 10 | 64 | 52 | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 18 showed up 241 times
+| 43 | 103 | 73 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 17 showed up 88 times
+| 7 | 60 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 16 showed up 134 times
+| 31 | 39 | 42 | 16 | 6 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 17 showed up 213 times
+| 28 | 167 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 17 showed up 130 times
+| 36 | 69 | 24 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 17 showed up 360 times
+| 82 | 235 | 42 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 24 showed up 42 times
+| 10 | 22 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 17 showed up 117 times
+| 9 | 61 | 46 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 17 showed up 12 times
+| 1 | 6 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 17 showed up 82 times
+| 26 | 50 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 17 showed up 86 times
+| 37 | 36 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 27 showed up 50 times
+| 10 | 19 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 17 showed up 48 times
+| 24 | 18 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 43 showed up 21 times
+| 9 | 5 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 24 showed up 300 times
+| 82 | 195 | 22 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 17 showed up 101 times
+| 5 | 39 | 55 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 17 showed up 16 times
+| 1 | 11 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 27 showed up 15 times
+| 0 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 14 showed up 160 times
+| 36 | 79 | 31 | 11 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 16 showed up 337 times
+| 68 | 185 | 68 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 20 showed up 132 times
+| 48 | 24 | 45 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 17 showed up 151 times
+| 47 | 102 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 17 showed up 3 times
+| 0 | 1 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 17 showed up 39 times
+| 3 | 21 | 14 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+6 by 19 showed up 42 times
+| 9 | 8 | 13 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 14 showed up 4 times
+| 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 14 showed up 6 times
+| 3 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 27 showed up 28 times
+| 10 | 10 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 28 showed up 8 times
+| 6 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 14 showed up 286 times
+| 27 | 129 | 103 | 27 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 17 showed up 4 times
+| 0 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 17 showed up 9 times
+| 0 | 5 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 28 showed up 119 times
+| 70 | 36 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 27 showed up 36 times
+| 8 | 13 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 14 showed up 5 times
+| 1 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 17 showed up 7 times
+| 1 | 2 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 24 showed up 5 times
+| 0 | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 27 showed up 52 times
+| 13 | 29 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 28 showed up 101 times
+| 24 | 24 | 53 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 18 showed up 48 times
+| 0 | 20 | 26 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 13 showed up 153 times
+| 7 | 52 | 91 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 43 showed up 7 times
+| 1 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 13 showed up 587 times
+| 59 | 228 | 282 | 17 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 18 showed up 14 times
+| 1 | 5 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 18 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 18 showed up 28 times
+| 0 | 13 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 18 showed up 581 times
+| 52 | 198 | 262 | 55 | 5 | 6 | 0 | 0 | 1 | 1 | 
+
+18 by 18 showed up 66 times
+| 7 | 24 | 33 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 19 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 13 showed up 265 times
+| 48 | 96 | 118 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 13 showed up 134 times
+| 36 | 27 | 54 | 15 | 1 | 1 | 0 | 0 | 0 | 0 | 
+
+9 by 19 showed up 121 times
+| 30 | 52 | 34 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 13 showed up 38 times
+| 11 | 3 | 2 | 21 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 24 showed up 33 times
+| 13 | 6 | 9 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 24 showed up 117 times
+| 37 | 64 | 15 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 24 showed up 107 times
+| 10 | 17 | 75 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 18 showed up 23 times
+| 0 | 15 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 24 showed up 31 times
+| 10 | 13 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 24 showed up 129 times
+| 47 | 48 | 34 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 18 showed up 17 times
+| 0 | 6 | 8 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 24 showed up 3 times
+| 0 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 24 showed up 29 times
+| 16 | 3 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 24 showed up 45 times
+| 3 | 38 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 24 showed up 7 times
+| 1 | 4 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 24 showed up 25 times
+| 6 | 10 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 18 showed up 13 times
+| 0 | 8 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 24 showed up 4 times
+| 0 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 18 showed up 222 times
+| 71 | 81 | 68 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 16 showed up 127 times
+| 14 | 56 | 57 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 16 showed up 56 times
+| 2 | 21 | 30 | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+14 by 16 showed up 128 times
+| 12 | 66 | 47 | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+19 by 28 showed up 26 times
+| 5 | 12 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 43 showed up 5 times
+| 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 13 showed up 801 times
+| 87 | 402 | 303 | 8 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+11 by 16 showed up 221 times
+| 19 | 124 | 70 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 20 showed up 351 times
+| 36 | 132 | 107 | 68 | 8 | 0 | 0 | 0 | 0 | 0 | 
+
+33 by 18 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 18 showed up 7 times
+| 0 | 5 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 16 showed up 417 times
+| 42 | 156 | 168 | 47 | 2 | 1 | 1 | 0 | 0 | 0 | 
+
+23 by 28 showed up 55 times
+| 1 | 18 | 36 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 16 showed up 35 times
+| 3 | 12 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 13 showed up 403 times
+| 34 | 182 | 176 | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 18 showed up 16 times
+| 0 | 12 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 19 showed up 58 times
+| 7 | 28 | 21 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 7 showed up 289 times
+| 11 | 18 | 87 | 80 | 69 | 18 | 1 | 3 | 1 | 0 | 
+
+2 by 7 showed up 5 times
+| 1 | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 7 showed up 22 times
+| 0 | 8 | 11 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 7 showed up 154 times
+| 5 | 17 | 49 | 54 | 24 | 4 | 1 | 0 | 0 | 0 | 
+
+3 by 7 showed up 12 times
+| 2 | 2 | 6 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 8 showed up 119 times
+| 0 | 5 | 20 | 58 | 32 | 3 | 1 | 0 | 0 | 0 | 
+
+8 by 6 showed up 269 times
+| 10 | 16 | 51 | 101 | 68 | 23 | 0 | 0 | 0 | 0 | 
+
+11 by 8 showed up 58 times
+| 1 | 0 | 15 | 29 | 12 | 1 | 0 | 0 | 0 | 0 | 
+
+7 by 6 showed up 51 times
+| 0 | 7 | 17 | 23 | 4 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 6 showed up 11 times
+| 0 | 1 | 5 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 6 showed up 23 times
+| 1 | 0 | 8 | 10 | 4 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 16 showed up 28 times
+| 2 | 21 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 20 showed up 518 times
+| 54 | 152 | 201 | 86 | 8 | 9 | 4 | 2 | 1 | 0 | 
+
+18 by 16 showed up 30 times
+| 3 | 22 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 6 showed up 230 times
+| 6 | 30 | 82 | 87 | 24 | 1 | 0 | 0 | 0 | 0 | 
+
+11 by 20 showed up 265 times
+| 30 | 146 | 84 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 6 showed up 41 times
+| 7 | 10 | 7 | 9 | 6 | 2 | 0 | 0 | 0 | 0 | 
+
+19 by 20 showed up 48 times
+| 1 | 32 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 28 showed up 14 times
+| 7 | 2 | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 6 showed up 122 times
+| 1 | 26 | 38 | 46 | 7 | 3 | 1 | 0 | 0 | 0 | 
+
+7 by 20 showed up 153 times
+| 41 | 58 | 45 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 27 showed up 84 times
+| 2 | 50 | 32 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 20 showed up 301 times
+| 27 | 136 | 118 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 31 showed up 2 times
+| 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 31 showed up 11 times
+| 8 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 31 showed up 19 times
+| 12 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 31 showed up 30 times
+| 15 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 31 showed up 26 times
+| 17 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 31 showed up 5 times
+| 1 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 31 showed up 11 times
+| 1 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 31 showed up 4 times
+| 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 31 showed up 4 times
+| 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 31 showed up 10 times
+| 6 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 31 showed up 12 times
+| 5 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 31 showed up 15 times
+| 5 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 27 showed up 15 times
+| 4 | 6 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 31 showed up 10 times
+| 6 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 31 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 6 showed up 205 times
+| 1 | 21 | 70 | 98 | 12 | 3 | 0 | 0 | 0 | 0 | 
+
+24 by 31 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 43 showed up 5 times
+| 3 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 31 showed up 4 times
+| 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 20 showed up 116 times
+| 2 | 40 | 59 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 31 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 31 showed up 2 times
+| 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 31 showed up 7 times
+| 6 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 20 showed up 125 times
+| 6 | 48 | 48 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 27 showed up 90 times
+| 2 | 76 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 31 showed up 11 times
+| 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 20 showed up 10 times
+| 1 | 4 | 3 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 31 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 27 showed up 41 times
+| 2 | 33 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 28 showed up 119 times
+| 69 | 28 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 20 showed up 152 times
+| 6 | 51 | 79 | 15 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 20 showed up 80 times
+| 3 | 46 | 26 | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+21 by 20 showed up 21 times
+| 3 | 7 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 6 showed up 515 times
+| 9 | 33 | 209 | 162 | 73 | 25 | 1 | 1 | 0 | 1 | 
+
+15 by 27 showed up 40 times
+| 5 | 30 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 6 showed up 6 times
+| 1 | 1 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 27 showed up 25 times
+| 5 | 17 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 20 showed up 41 times
+| 2 | 18 | 15 | 5 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+10 by 19 showed up 83 times
+| 8 | 37 | 34 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 20 showed up 65 times
+| 22 | 11 | 8 | 15 | 6 | 1 | 1 | 1 | 0 | 0 | 
+
+4 by 14 showed up 170 times
+| 38 | 69 | 46 | 15 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 18 showed up 53 times
+| 11 | 19 | 7 | 12 | 3 | 1 | 0 | 0 | 0 | 0 | 
+
+5 by 18 showed up 91 times
+| 34 | 22 | 24 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 27 showed up 23 times
+| 2 | 9 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 27 showed up 7 times
+| 1 | 5 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 11 showed up 372 times
+| 33 | 95 | 209 | 31 | 4 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 11 showed up 174 times
+| 35 | 48 | 62 | 28 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 18 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 11 showed up 39 times
+| 11 | 7 | 5 | 13 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 19 showed up 92 times
+| 9 | 39 | 42 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 10 showed up 826 times
+| 46 | 175 | 412 | 139 | 14 | 18 | 9 | 6 | 6 | 0 | 
+
+2 by 12 showed up 35 times
+| 8 | 6 | 8 | 9 | 4 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 18 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 25 showed up 229 times
+| 34 | 91 | 100 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 20 showed up 4 times
+| 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 20 showed up 8 times
+| 3 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 10 showed up 198 times
+| 29 | 44 | 82 | 37 | 6 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 10 showed up 61 times
+| 6 | 18 | 3 | 20 | 14 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 43 showed up 18 times
+| 0 | 15 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 10 showed up 173 times
+| 5 | 29 | 93 | 46 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 43 showed up 19 times
+| 1 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 24 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 13 showed up 33 times
+| 4 | 8 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 24 showed up 3 times
+| 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 24 showed up 17 times
+| 1 | 1 | 6 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 23 showed up 25 times
+| 12 | 11 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 23 showed up 75 times
+| 14 | 33 | 28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 23 showed up 69 times
+| 19 | 44 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 23 showed up 73 times
+| 15 | 55 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 23 showed up 38 times
+| 2 | 23 | 12 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 23 showed up 33 times
+| 10 | 13 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 23 showed up 10 times
+| 2 | 6 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 23 showed up 26 times
+| 3 | 20 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 23 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 13 showed up 69 times
+| 6 | 28 | 31 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 23 showed up 7 times
+| 2 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 27 showed up 23 times
+| 0 | 14 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 23 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 23 showed up 39 times
+| 3 | 14 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 19 showed up 30 times
+| 7 | 10 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 26 showed up 43 times
+| 18 | 14 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 26 showed up 19 times
+| 1 | 7 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 26 showed up 31 times
+| 1 | 22 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 26 showed up 110 times
+| 18 | 61 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 26 showed up 38 times
+| 0 | 21 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 26 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 32 showed up 17 times
+| 17 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 32 showed up 4 times
+| 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 32 showed up 12 times
+| 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+31 by 32 showed up 21 times
+| 19 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 26 showed up 20 times
+| 0 | 7 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 32 showed up 11 times
+| 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 32 showed up 8 times
+| 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 32 showed up 7 times
+| 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 26 showed up 67 times
+| 6 | 47 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 32 showed up 8 times
+| 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 26 showed up 24 times
+| 6 | 4 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 32 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 13 showed up 214 times
+| 57 | 77 | 73 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 27 showed up 22 times
+| 0 | 15 | 6 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 26 showed up 47 times
+| 8 | 23 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 32 showed up 3 times
+| 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 32 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 32 showed up 2 times
+| 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 14 showed up 43 times
+| 19 | 11 | 8 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 43 showed up 8 times
+| 0 | 5 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 22 showed up 70 times
+| 27 | 13 | 30 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 22 showed up 114 times
+| 29 | 60 | 20 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 22 showed up 314 times
+| 104 | 174 | 36 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 22 showed up 165 times
+| 34 | 92 | 32 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 22 showed up 13 times
+| 1 | 1 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 22 showed up 52 times
+| 15 | 18 | 17 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 22 showed up 176 times
+| 39 | 89 | 34 | 13 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 22 showed up 90 times
+| 10 | 33 | 39 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 26 showed up 15 times
+| 0 | 11 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 26 showed up 37 times
+| 0 | 18 | 19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 26 showed up 26 times
+| 0 | 18 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 22 showed up 13 times
+| 9 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 26 showed up 17 times
+| 4 | 11 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 22 showed up 34 times
+| 2 | 10 | 21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 22 showed up 53 times
+| 4 | 21 | 28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 21 showed up 48 times
+| 17 | 13 | 9 | 8 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+10 by 21 showed up 110 times
+| 18 | 49 | 42 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 21 showed up 111 times
+| 7 | 76 | 28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 21 showed up 62 times
+| 1 | 21 | 20 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 21 showed up 86 times
+| 15 | 58 | 10 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 26 showed up 22 times
+| 1 | 11 | 7 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 21 showed up 78 times
+| 10 | 35 | 31 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 21 showed up 11 times
+| 6 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 21 showed up 35 times
+| 17 | 9 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 26 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 21 showed up 3 times
+| 1 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 21 showed up 22 times
+| 3 | 9 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 26 showed up 31 times
+| 0 | 20 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 26 showed up 30 times
+| 11 | 14 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 26 showed up 6 times
+| 1 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 26 showed up 3 times
+| 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+33 by 26 showed up 4 times
+| 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 26 showed up 7 times
+| 3 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 18 showed up 33 times
+| 12 | 6 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 26 showed up 32 times
+| 7 | 10 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 26 showed up 3 times
+| 1 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 29 showed up 24 times
+| 16 | 6 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 29 showed up 15 times
+| 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 29 showed up 46 times
+| 25 | 19 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 29 showed up 44 times
+| 16 | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 29 showed up 18 times
+| 14 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 29 showed up 27 times
+| 9 | 10 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 29 showed up 40 times
+| 17 | 16 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 29 showed up 17 times
+| 9 | 7 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 29 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 29 showed up 33 times
+| 20 | 12 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+34 by 29 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 29 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 29 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 26 showed up 24 times
+| 0 | 21 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 29 showed up 4 times
+| 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 26 showed up 12 times
+| 10 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 40 showed up 14 times
+| 9 | 3 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 40 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 40 showed up 51 times
+| 11 | 40 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 40 showed up 13 times
+| 4 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 40 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 40 showed up 23 times
+| 13 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 40 showed up 43 times
+| 11 | 32 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 40 showed up 15 times
+| 0 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+35 by 40 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 40 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+36 by 40 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+40 by 40 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 28 showed up 27 times
+| 17 | 3 | 6 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 28 showed up 42 times
+| 15 | 11 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 28 showed up 30 times
+| 0 | 9 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 28 showed up 47 times
+| 8 | 11 | 28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 14 showed up 4 times
+| 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 8 showed up 7 times
+| 0 | 0 | 0 | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 17 showed up 41 times
+| 19 | 18 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 17 showed up 6 times
+| 3 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 10 showed up 64 times
+| 1 | 13 | 33 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 13 showed up 7 times
+| 1 | 2 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 10 showed up 237 times
+| 18 | 54 | 117 | 47 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 10 showed up 10 times
+| 0 | 5 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 10 showed up 57 times
+| 1 | 8 | 36 | 10 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 12 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+37 by 43 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 43 showed up 5 times
+| 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 10 showed up 7 times
+| 0 | 0 | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 13 showed up 14 times
+| 2 | 4 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 27 showed up 21 times
+| 8 | 2 | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 13 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 21 showed up 53 times
+| 16 | 24 | 8 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 21 showed up 85 times
+| 10 | 33 | 32 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 21 showed up 53 times
+| 3 | 35 | 11 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 21 showed up 102 times
+| 11 | 40 | 47 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 8 showed up 18 times
+| 1 | 3 | 5 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 8 showed up 288 times
+| 15 | 35 | 49 | 133 | 54 | 2 | 0 | 0 | 0 | 0 | 
+
+3 by 21 showed up 2 times
+| 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 28 showed up 25 times
+| 1 | 2 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 28 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 8 showed up 19 times
+| 0 | 0 | 8 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 8 showed up 10 times
+| 0 | 1 | 2 | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 19 showed up 37 times
+| 2 | 11 | 21 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 19 showed up 14 times
+| 0 | 3 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 43 showed up 16 times
+| 0 | 12 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 26 showed up 2 times
+| 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 22 showed up 20 times
+| 0 | 12 | 7 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 22 showed up 85 times
+| 6 | 32 | 47 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 22 showed up 50 times
+| 4 | 22 | 20 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 22 showed up 30 times
+| 0 | 6 | 22 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 21 showed up 27 times
+| 2 | 14 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 21 showed up 36 times
+| 5 | 15 | 13 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 24 showed up 1 times
+| 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 12 showed up 309 times
+| 14 | 43 | 84 | 125 | 29 | 9 | 3 | 1 | 0 | 0 | 
+
+21 by 22 showed up 14 times
+| 1 | 3 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 22 showed up 56 times
+| 8 | 9 | 39 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 25 showed up 42 times
+| 17 | 8 | 15 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 25 showed up 17 times
+| 5 | 10 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 25 showed up 76 times
+| 8 | 17 | 48 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 25 showed up 10 times
+| 0 | 5 | 4 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 25 showed up 56 times
+| 6 | 22 | 28 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 25 showed up 25 times
+| 11 | 0 | 10 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 25 showed up 36 times
+| 20 | 9 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 25 showed up 58 times
+| 4 | 31 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 25 showed up 8 times
+| 2 | 2 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 25 showed up 45 times
+| 4 | 25 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 25 showed up 20 times
+| 0 | 10 | 9 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 25 showed up 29 times
+| 2 | 16 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 25 showed up 15 times
+| 1 | 10 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 25 showed up 5 times
+| 0 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 25 showed up 77 times
+| 11 | 22 | 44 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 25 showed up 19 times
+| 8 | 3 | 7 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 25 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 19 showed up 13 times
+| 0 | 3 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 19 showed up 45 times
+| 11 | 5 | 27 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 25 showed up 9 times
+| 0 | 1 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 19 showed up 40 times
+| 2 | 7 | 29 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 19 showed up 60 times
+| 6 | 22 | 28 | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+11 by 43 showed up 8 times
+| 2 | 5 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 22 showed up 63 times
+| 12 | 33 | 16 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 22 showed up 29 times
+| 11 | 14 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 22 showed up 5 times
+| 0 | 1 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 25 showed up 24 times
+| 12 | 7 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 25 showed up 22 times
+| 0 | 20 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 25 showed up 2 times
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 25 showed up 2 times
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 25 showed up 3 times
+| 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 15 showed up 12 times
+| 5 | 1 | 1 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 28 showed up 13 times
+| 0 | 3 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 20 showed up 2 times
+| 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+31 by 28 showed up 12 times
+| 0 | 1 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 28 showed up 27 times
+| 0 | 4 | 23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 28 showed up 14 times
+| 0 | 1 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 28 showed up 21 times
+| 0 | 7 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+35 by 43 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 20 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 28 showed up 4 times
+| 0 | 1 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 13 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 13 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 28 showed up 4 times
+| 0 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 43 showed up 7 times
+| 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 33 showed up 4 times
+| 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 33 showed up 22 times
+| 9 | 8 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 33 showed up 14 times
+| 4 | 0 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 33 showed up 42 times
+| 4 | 31 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 33 showed up 6 times
+| 0 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 33 showed up 6 times
+| 2 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 33 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 15 showed up 9 times
+| 1 | 3 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 9 showed up 2 times
+| 0 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 9 showed up 3 times
+| 0 | 0 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 33 showed up 23 times
+| 7 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 16 showed up 5 times
+| 0 | 4 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 16 showed up 7 times
+| 0 | 5 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 33 showed up 13 times
+| 2 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 7 showed up 95 times
+| 11 | 34 | 33 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 22 showed up 9 times
+| 0 | 2 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 19 showed up 31 times
+| 3 | 11 | 15 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 33 showed up 12 times
+| 0 | 11 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 33 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 33 showed up 37 times
+| 2 | 33 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 33 showed up 18 times
+| 3 | 13 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 33 showed up 19 times
+| 0 | 15 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 33 showed up 15 times
+| 1 | 12 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 43 showed up 13 times
+| 0 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 33 showed up 9 times
+| 1 | 2 | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 37 showed up 19 times
+| 9 | 4 | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 37 showed up 12 times
+| 6 | 1 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 37 showed up 50 times
+| 3 | 14 | 33 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 37 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 37 showed up 12 times
+| 0 | 3 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 37 showed up 9 times
+| 1 | 0 | 7 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 37 showed up 3 times
+| 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 37 showed up 10 times
+| 3 | 5 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 37 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 37 showed up 8 times
+| 1 | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 37 showed up 8 times
+| 0 | 2 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 37 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 37 showed up 11 times
+| 0 | 0 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 37 showed up 14 times
+| 0 | 6 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 37 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 37 showed up 9 times
+| 0 | 1 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 37 showed up 5 times
+| 0 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 37 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 37 showed up 4 times
+| 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+31 by 37 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 37 showed up 6 times
+| 1 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 37 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 37 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 37 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 33 showed up 7 times
+| 3 | 3 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 29 showed up 38 times
+| 4 | 16 | 17 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 29 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 29 showed up 7 times
+| 1 | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 29 showed up 2 times
+| 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 29 showed up 10 times
+| 0 | 2 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 29 showed up 12 times
+| 0 | 8 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 29 showed up 8 times
+| 0 | 1 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 29 showed up 7 times
+| 1 | 2 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 29 showed up 2 times
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 29 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 20 showed up 11 times
+| 1 | 2 | 6 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 
+
+14 by 33 showed up 28 times
+| 0 | 20 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 28 showed up 6 times
+| 0 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 6 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 33 showed up 20 times
+| 0 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 22 showed up 13 times
+| 0 | 4 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 22 showed up 2 times
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 19 showed up 9 times
+| 0 | 1 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 19 showed up 6 times
+| 0 | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 19 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 19 showed up 14 times
+| 0 | 6 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 19 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 19 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+31 by 19 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 12 showed up 6 times
+| 0 | 0 | 5 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 33 showed up 9 times
+| 1 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 15 showed up 8 times
+| 0 | 6 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 15 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 15 showed up 23 times
+| 0 | 8 | 14 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 15 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 10 showed up 9 times
+| 1 | 1 | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 8 showed up 325 times
+| 10 | 19 | 73 | 119 | 60 | 39 | 1 | 1 | 2 | 0 | 
+
+11 by 33 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 43 showed up 12 times
+| 1 | 7 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 33 showed up 3 times
+| 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 22 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 21 showed up 4 times
+| 1 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 27 showed up 4 times
+| 2 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 27 showed up 9 times
+| 7 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 35 showed up 22 times
+| 9 | 5 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 35 showed up 8 times
+| 1 | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 35 showed up 22 times
+| 1 | 16 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 35 showed up 41 times
+| 7 | 18 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 35 showed up 27 times
+| 2 | 18 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 35 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 35 showed up 8 times
+| 0 | 5 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 35 showed up 24 times
+| 0 | 19 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 35 showed up 16 times
+| 4 | 4 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 35 showed up 24 times
+| 7 | 15 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 35 showed up 13 times
+| 1 | 10 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 35 showed up 31 times
+| 0 | 19 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 35 showed up 14 times
+| 0 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 35 showed up 7 times
+| 2 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 35 showed up 12 times
+| 2 | 4 | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 35 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 35 showed up 18 times
+| 0 | 14 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 35 showed up 6 times
+| 2 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 35 showed up 7 times
+| 1 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 35 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+33 by 35 showed up 3 times
+| 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 35 showed up 5 times
+| 3 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 35 showed up 12 times
+| 2 | 0 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 35 showed up 3 times
+| 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 35 showed up 5 times
+| 0 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+31 by 27 showed up 5 times
+| 0 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+37 by 27 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+33 by 27 showed up 7 times
+| 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+40 by 27 showed up 3 times
+| 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 27 showed up 11 times
+| 0 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 27 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 27 showed up 9 times
+| 0 | 5 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 27 showed up 12 times
+| 0 | 5 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 27 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+38 by 27 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 27 showed up 4 times
+| 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+39 by 27 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+36 by 27 showed up 3 times
+| 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+42 by 27 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 21 showed up 7 times
+| 0 | 5 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+28 by 21 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 21 showed up 3 times
+| 0 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 21 showed up 2 times
+| 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 21 showed up 21 times
+| 0 | 11 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 21 showed up 11 times
+| 0 | 5 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 21 showed up 5 times
+| 0 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 21 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 21 showed up 5 times
+| 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 21 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 15 showed up 2 times
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 15 showed up 3 times
+| 0 | 1 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 16 showed up 2 times
+| 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 16 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 23 showed up 17 times
+| 3 | 12 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 23 showed up 30 times
+| 8 | 18 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 23 showed up 6 times
+| 1 | 3 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+5 by 23 showed up 13 times
+| 6 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 23 showed up 5 times
+| 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 33 showed up 7 times
+| 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 33 showed up 7 times
+| 0 | 5 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+31 by 33 showed up 3 times
+| 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 22 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 33 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 43 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 43 showed up 8 times
+| 1 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+31 by 43 showed up 10 times
+| 0 | 6 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+34 by 43 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+40 by 43 showed up 4 times
+| 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 43 showed up 7 times
+| 1 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+32 by 43 showed up 4 times
+| 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+39 by 43 showed up 6 times
+| 3 | 2 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+33 by 43 showed up 5 times
+| 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 43 showed up 12 times
+| 0 | 2 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 43 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 46 showed up 13 times
+| 6 | 3 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+14 by 46 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 46 showed up 51 times
+| 4 | 9 | 38 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+35 by 46 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 46 showed up 19 times
+| 0 | 1 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+9 by 46 showed up 9 times
+| 3 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+13 by 46 showed up 16 times
+| 7 | 5 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 46 showed up 3 times
+| 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 46 showed up 16 times
+| 4 | 5 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+40 by 46 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 46 showed up 16 times
+| 0 | 1 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+24 by 46 showed up 4 times
+| 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+31 by 46 showed up 9 times
+| 0 | 0 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 46 showed up 8 times
+| 0 | 1 | 5 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 46 showed up 7 times
+| 0 | 3 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 46 showed up 3 times
+| 0 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+33 by 46 showed up 5 times
+| 0 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+38 by 46 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 46 showed up 4 times
+| 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+19 by 46 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+39 by 46 showed up 1 times
+| 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 46 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+36 by 46 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 36 showed up 20 times
+| 6 | 4 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+11 by 36 showed up 3 times
+| 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+17 by 36 showed up 54 times
+| 8 | 26 | 20 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 36 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+20 by 36 showed up 13 times
+| 0 | 2 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+6 by 36 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+10 by 36 showed up 16 times
+| 8 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+12 by 36 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+30 by 36 showed up 3 times
+| 0 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+21 by 36 showed up 14 times
+| 0 | 4 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+18 by 36 showed up 5 times
+| 0 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 36 showed up 2 times
+| 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+15 by 36 showed up 11 times
+| 0 | 8 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+25 by 36 showed up 4 times
+| 0 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+22 by 36 showed up 19 times
+| 0 | 5 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 36 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+16 by 36 showed up 13 times
+| 0 | 4 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 36 showed up 9 times
+| 2 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+26 by 36 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 43 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 33 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+7 by 23 showed up 21 times
+| 8 | 3 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 23 showed up 3 times
+| 0 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 
+
+8 by 43 showed up 2 times
+| 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+34 by 28 showed up 1 times
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+40 by 28 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+33 by 28 showed up 2 times
+| 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+36 by 28 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 8 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+38 by 28 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 3 showed up 2 times
+| 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+4 by 5 showed up 49 times
+| 0 | 2 | 9 | 17 | 18 | 3 | 0 | 0 | 0 | 0 | 
+
+35 by 28 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 6 showed up 6 times
+| 1 | 1 | 0 | 1 | 0 | 1 | 1 | 0 | 1 | 0 | 
+
+17 by 10 showed up 2 times
+| 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+29 by 18 showed up 2 times
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+23 by 23 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 3 showed up 5 times
+| 0 | 2 | 0 | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 
+
+5 by 5 showed up 8 times
+| 0 | 1 | 3 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+27 by 22 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+3 by 31 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 15 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 13 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 12 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 16 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 17 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 24 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 11 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 20 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+2 by 18 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 17 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 18 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 16 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 14 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 20 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 19 showed up 1 times
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+1 by 10 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
+36 by 43 showed up 1 times
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+
