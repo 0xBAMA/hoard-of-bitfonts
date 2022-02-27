@@ -24,6 +24,36 @@ void PopulateList() { // get the glyphs into the glyphs array
 	}
 }
 
+std::string UintToString ( uint64_t data, int width ) {
+	std::string temp;
+	for ( int i = 0; i < width; i++ ) {
+		temp += ( data % 2 ) ? '@' : '.';
+		data = data >> 1;
+	}
+	reverse( temp.begin(), temp.end() );
+	return temp;
+}
+
+void ReadUintModel () {
+	std::ifstream i( "uintEncoded.json" );
+	json j; i >> j;
+	for ( auto& element : j ) { // per character
+		int loadX = element[ "x" ];
+		int loadY = element[ "y" ];
+		int currentY = 0;
+		letter temp;
+		temp.data.resize( element[ "d" ].size() );
+		for ( int i = 0; i < loadY; i++ ) {
+			temp.buildrow( currentY, UintToString( element[ "d" ][ i ], loadX ) );
+			currentY++;
+		}
+		if( !temp.nfg ) {
+			glyphs.push_back( temp );
+			temp.print();
+		}
+	}
+}
+
 uint64_t RowToUint64_t ( std::vector< unsigned char > inputRow ) {
 	uint64_t accumulator = 0;
 	for ( int i = 1; i <= inputRow.size(); i++ ) {
@@ -46,44 +76,28 @@ void AddUintGlyph ( letter in ) {
 }
 
 void WriteModelAsUints () {
-	// shuffle around the entries
-	auto rd = std::random_device {};
-	auto rng = std::default_random_engine { rd() };
-	std::shuffle( std::begin( glyphs ), std::end( glyphs ), rng );
+	// // shuffle around the entries
+	// auto rd = std::random_device {};
+	// auto rng = std::default_random_engine { rd() };
+	// std::shuffle( std::begin( glyphs ), std::end( glyphs ), rng );
 
-	// add to json object
+	// add each glyph to json object
 	for ( int i = 0; i < glyphs.size(); i++ ) {
-		AddUintGlyph( glyphs[ 1 ] );
+		AddUintGlyph( glyphs[ i ] );
 	}
 
-	// save json to file
+	// save json object to file
 	std::ofstream o ( "uintEncoded.json" );
 	o << output.dump( 0 ) << std::endl;
-
-	// ended up not being smaller
-	// std::vector< uint8_t > convertedToBSON = json::to_bson( output );
-	// for ( int i = 0; i < convertedToBSON.size(); i++ ) {
-		// o << convertedToBSON[ i ];
-	// }
 }
-
 
 int main ( int argc, char const *argv[] ) {
 	PopulateList();
-
-	// int maxRowSize = 0;
-	// int maxRowSizeIndex = -1;
-	// for ( int i = 0; i < glyphs.size(); i++ ) {
-	// 	if ( glyphs[ i ].data[ 1 ].size() > maxRowSize ) {
-	// 		maxRowSize = glyphs[ i ].data[ 1 ].size();
-	// 		maxRowSizeIndex = i;
-	// 	}
-	// }
-	//
-	// std::cout << "maximum observed width in the data: " << maxRowSize << " at " << maxRowSizeIndex << std::endl;
-	// glyphs[ maxRowSizeIndex ].print();
-
 	WriteModelAsUints();
+
+	glyphs.clear();
+
+	ReadUintModel();
 
 	return 0;
 }
