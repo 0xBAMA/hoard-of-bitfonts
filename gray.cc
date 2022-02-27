@@ -8,7 +8,7 @@
 
 // starting with 8x8 glyphs, since they have good coverage over all bins
 // good options are: 8x8, 6x8, 8x16, 8x12, 7x8
-int glyphX = 6;
+int glyphX = 8;
 int glyphY = 8;
 
 std::vector< letter > glyphs;
@@ -31,7 +31,7 @@ void PopulateList() { // get the glyphs into the glyphs array
 }
 
 // starting with 10 bins
-constexpr int numBins = 10;
+constexpr int numBins = 24;
 std::vector< letter > binnedGlyphs[ numBins ];
 void BinGlyphs () {
 	for ( int i = 0; i < glyphs.size(); i++ ) {
@@ -79,7 +79,7 @@ void writeGlyph ( int xin, int yin, int c, letter l ) {
 
 	long unsigned int seed = std::chrono::system_clock::now().time_since_epoch().count();
 	std::default_random_engine engine{ seed };
-	std::uniform_int_distribution< int > distribution { 186, 255 };
+	std::uniform_int_distribution< int > distribution { 128, 255 };
 
 	for ( int y = 0; y < glyphY; y++ ) {
 		for ( int x = 0; x < glyphX; x++ ) {

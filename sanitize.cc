@@ -74,7 +74,7 @@ void OutputNewModel () {
 		i++;
 	}
 	std::ofstream o ( "optimized2electricboogaloo.json" );
-	o << j.dump( 1 ) << std::endl;
+	o << j.dump( 0 ) << std::endl;
 }
 
 int main ( int argc, char const *argv[] ) {
