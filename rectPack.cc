@@ -40,6 +40,11 @@ void ReadUintModel () {
 }
 
 void GeneratePackedVis ( ) {
+	// // shuffle around the entries
+	// auto rd = std::random_device {};
+	// auto rng = std::default_random_engine { rd() };
+	// std::shuffle( std::begin( glyphs ), std::end( glyphs ), rng );
+
 	size_t max_vertical_size = 0;
 	size_t max_horizontal_size = 0;
 
@@ -70,8 +75,8 @@ void GeneratePackedVis ( ) {
 	std::vector< stbrp_rect > rects;
 	for ( auto& letter : glyphs ) {
 		stbrp_rect r;
-		r.w = letter.data[ 0 ].size() + 2; // padding
-		r.h = letter.data.size() + 2;
+		r.w = letter.data[ 0 ].size() + 1; // padding
+		r.h = letter.data.size() + 1;
 		r.index = k;
 		k++;
 		rects.push_back( r );
@@ -90,22 +95,26 @@ void GeneratePackedVis ( ) {
 	std::seed_seq s{ r(), r(), r(), r(), r(), r(), r(), r(), r() };
 	std::mt19937_64 gen = std::mt19937_64( s );
 
-	std::uniform_int_distribution<int> color( 60, 189 );
+	std::uniform_int_distribution<int> colorR( 32, 225 );
+	std::uniform_int_distribution<int> colorG( 12, 225 );
+	std::uniform_int_distribution<int> colorB( 89, 128 );
 
 	for( auto& rect : rects ) {
-		int col = color( gen );
-		for( int x = 0; x < rect.w-2; x++ ) // compensate for padding
-		for( int y = 0; y < rect.h-2; y++ ) {
+		int colR = colorR( gen );
+		int colG = colorG( gen );
+		int colB = colorB( gen );
+		for( int x = 0; x < rect.w-1; x++ ) // compensate for padding
+		for( int y = 0; y < rect.h-1; y++ ) {
 			int base = ( ( x + rect.x + 7 ) + width_pixels * ( y + rect.y + 7 ) ) * 4;
 			if( glyphs[ rect.index ].data[ y ][ x ] == 1 ) {
-				image[ base + 0 ] = 0;
-				image[ base + 1 ] = 0;
-				image[ base + 2 ] = 0;
+				image[ base + 0 ] = colR;
+				image[ base + 1 ] = colG;
+				image[ base + 2 ] = colB;
 				image[ base + 3 ] = 255;
 			}else{
-				image[ base + 0 ] = col;
-				image[ base + 1 ] = col;
-				image[ base + 2 ] = col;
+				image[ base + 0 ] = 245;
+				image[ base + 1 ] = 245;
+				image[ base + 2 ] = 245;
 				image[ base + 3 ] = 255;
 			}
 		}

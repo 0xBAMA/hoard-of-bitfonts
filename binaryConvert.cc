@@ -4,6 +4,7 @@
 #include <random>
 
 #include "letters.h"
+#include "lodepng.h"
 
 std::vector< letter > glyphs;
 void PopulateList() { // get the glyphs into the glyphs array
@@ -76,11 +77,6 @@ void AddUintGlyph ( letter in ) {
 }
 
 void WriteModelAsUints () {
-	// // shuffle around the entries
-	// auto rd = std::random_device {};
-	// auto rng = std::default_random_engine { rd() };
-	// std::shuffle( std::begin( glyphs ), std::end( glyphs ), rng );
-
 	// add each glyph to json object
 	for ( int i = 0; i < glyphs.size(); i++ ) {
 		AddUintGlyph( glyphs[ i ] );
@@ -91,13 +87,42 @@ void WriteModelAsUints () {
 	o << output.dump( 0 ) << std::endl;
 }
 
+
+void AddKlingonSymbol () {
+	std::vector<unsigned char> image_loaded_bytes;
+	unsigned width, height;
+	unsigned error = lodepng::decode(image_loaded_bytes, width, height, std::string("klingon.png").c_str());
+
+	letter k;
+	k.data.resize( height );
+	for ( int i = 0; i < k.data.size(); i++ ) {
+		k.data[ i ].resize( width );
+	}
+
+	for ( int x = 0; x < width; x++ ) {
+		for( int y = 0; y < height; y++ ) {
+			int index = ( x + y * width ) * 4;
+			if ( image_loaded_bytes[ index ] == 0 ) {
+				k.data[ y ][ x ] = 1;
+			} else {
+				k.data[ y ][ x ] = 0;
+			}
+		}
+	}
+
+	k.print();
+	glyphs.push_back( k );
+}
+
 int main ( int argc, char const *argv[] ) {
 	PopulateList();
+
+	AddKlingonSymbol();
 	WriteModelAsUints();
 
-	glyphs.clear();
 
-	ReadUintModel();
+	// glyphs.clear();
+	// ReadUintModel();
 
 	return 0;
 }
