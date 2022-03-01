@@ -6,7 +6,7 @@
 std::vector< letter > glyphs;
 std::string UintToString ( uint64_t data, int width ) {
 	std::string temp;
-	for ( int i = 0; i < width; i++ ) {
+	for ( int i = 0; i <= width; i++ ) {
 		temp += ( data % 2 ) ? '@' : '.';
 		data = data >> 1;
 	}

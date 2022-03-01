@@ -79,7 +79,8 @@ void writeGlyph ( int xin, int yin, int c, letter l ) {
 
 	long unsigned int seed = std::chrono::system_clock::now().time_since_epoch().count();
 	std::default_random_engine engine{ seed };
-	std::uniform_int_distribution< int > distribution { 128, 255 };
+	// std::uniform_int_distribution< int > distribution { 128, 255 };
+	std::uniform_int_distribution< int > distribution { 245, 255 };
 
 	for ( int y = 0; y < glyphY; y++ ) {
 		for ( int x = 0; x < glyphX; x++ ) {
